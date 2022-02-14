@@ -12,11 +12,11 @@ def years_since(date_string)
           end
 
   if years.zero?
-    'hardly any time at all!'
+    'hardly any time at all ago!'
   elsif years == 1
-    '1 year'
+    '1 year ago'
   else
-    "#{years} years"
+    "#{years} years ago"
   end
 end
 
@@ -51,7 +51,7 @@ service_html = services.map do |tech|
       <a target="_blank" rel='noopener noreferrer' href="#{tech['link']}">
         #{icon(tech['icon'])}
         <strong>#{tech['name']}</strong>
-      </a> was introduced <strong>#{years_since(tech['released'])} ago</strong>
+      </a> was introduced <strong>#{years_since(tech['released'])}</strong>
     </p>
     HTML
   end
