@@ -276,6 +276,12 @@
     "icon": "elastic_inference"
   },
   {
+    "name": "Elastic Transcoder",
+    "released": "2013-01-20",
+    "link": "https://press.aboutamazon.com/news-releases/news-release-details/amazon-web-services-launches-amazon-elastic-transcoder",
+    "icon": "elastic_transcoder"
+  },
+  {
     "name": "ElasticCache",
     "released": "2011-08-22",
     "link": "https://aws.amazon.com/blogs/aws/amazon-elasticache-distributed-in-memory-caching/",
@@ -328,6 +334,12 @@
     "released": "2020-06-24",
     "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-honeycode-build-web-mobile-apps-without-writing-code/",
     "icon": "honeycode"
+  },
+  {
+    "name": "Interactive Video Service (IVS)",
+    "released": "2020-07-15",
+    "link": "https://press.aboutamazon.com/news-releases/news-release-details/aws-announces-amazon-interactive-video-service-amazon-ivs",
+    "icon": "ivs"
   },
   {
     "name": "IoT",
@@ -418,6 +430,12 @@
     "released": "2018-05-30",
     "link": "https://aws.amazon.com/blogs/aws/amazon-neptune-generally-available/",
     "icon": "neptune"
+  },
+  {
+    "name": "Nimble Studio",
+    "released": "2021-04-28",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2021/04/aws-announces-general-availability-amazon-nimble-studio/",
+    "icon": "nimble_studio"
   },
   {
     "name": "Personalize",
