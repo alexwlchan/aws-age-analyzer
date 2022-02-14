@@ -36,14 +36,25 @@ File.open('services.json', 'w') { |f|
 @icons = JSON.parse(File.read('icons.json'))
 
 service_html = services.map do |tech|
-  <<-HTML
-  <p data-name="#{tech['name']}">
-    <a target="_blank" rel='noopener noreferrer' href="#{tech['link']}">
-      #{icon(tech['icon'])}
-      <strong>#{tech['name']}</strong>
-    </a> was introduced <strong>#{years_since(tech['released'])} ago</strong>
-  </p>
-  HTML
+  if tech['name'] == 'Infinidash'
+    <<-HTML
+    <p data-name="#{tech['name']}">
+      <a target="_blank" rel='noopener noreferrer' href="#{tech['link']}">
+        #{icon(tech['icon'])}
+        <strong>#{tech['name']}</strong>
+      </a> has not been introduced&hellip; yet</strong>
+    </p>
+    HTML
+  else
+    <<-HTML
+    <p data-name="#{tech['name']}">
+      <a target="_blank" rel='noopener noreferrer' href="#{tech['link']}">
+        #{icon(tech['icon'])}
+        <strong>#{tech['name']}</strong>
+      </a> was introduced <strong>#{years_since(tech['released'])} ago</strong>
+    </p>
+    HTML
+  end
 end.join
 
 dropdown_html = services.map do |tech|
