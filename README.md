@@ -35,8 +35,20 @@ I wanted to be clear that this is a distinct site from [jsrn's project](https://
 
 P.S. If you are a recruiter and you are reading this, obviously it is not *you* that we are poking fun at! Haha! Ha! Haa... please don't blacklist us from the industry.
 
+<!--
+
 - Amazon Elasticsearch
 data pipeline
 reserved instance reporting
 Chime
 Workdocs
+parallelcluster
+amazon activate
+amazon iq
+amazon managed services (ams)
+cdk cloud development kit
+aws codebuild
+aws codepipeline
+gamelift
+
+-->

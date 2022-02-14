@@ -12,6 +12,12 @@
     "icon": "alexa_for_business"
   },
   {
+    "name": "Amplify",
+    "released": "2017-11-21",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-aws-amplify-a-declarative-javascript-library-for-cloud-development-with-mobile-or-web-applications/",
+    "icon": "amplify"
+  },
+  {
     "name": "App Runner",
     "released": "2021-05-18",
     "link": "https://aws.amazon.com/blogs/containers/introducing-aws-app-runner/",
@@ -156,6 +162,12 @@
     "icon": "database_migration_service"
   },
   {
+    "name": "Device Farm",
+    "released": "2015-07-09",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2015/07/deliver-high-quality-apps-by-testing-them-against-real-phones-and-tablets-in-the-aws-cloud-with-device-farm/",
+    "icon": "device_farm"
+  },
+  {
     "name": "DocumentDB",
     "released": "2019-01-09",
     "link": "https://aws.amazon.com/blogs/aws/new-amazon-documentdb-with-mongodb-compatibility-fast-scalable-and-highly-available/",
@@ -246,6 +258,12 @@
     "icon": "honeycode"
   },
   {
+    "name": "IoT",
+    "released": "2015-12-18",
+    "link": "https://aws.amazon.com/blogs/aws/aws-iot-now-generally-available/",
+    "icon": "iot_core"
+  },
+  {
     "name": "Kinesis",
     "released": "2013-12-16",
     "link": "https://aws.amazon.com/about-aws/whats-new/2013/12/16/amazon-kinesis-available-for-all-customers/",
@@ -268,6 +286,12 @@
     "released": "2016-11-30",
     "link": "https://aws.amazon.com/about-aws/whats-new/2016/11/introducing-amazon-lightsail/",
     "icon": "lightsail"
+  },
+  {
+    "name": "Location Service",
+    "released": "2021-06-01",
+    "link": "https://aws.amazon.com/blogs/aws/amazon-location-service-is-now-generally-available-with-new-routing-and-satellite-imagery-capabilities/",
+    "icon": "location_service"
   },
   {
     "name": "MQ",
@@ -322,6 +346,12 @@
     "released": "2013-02-15",
     "link": "https://www.businesswire.com/news/home/20130215005204/en/Amazon-Web-Services-Amazon-Redshift-Customers",
     "icon": "redshift"
+  },
+  {
+    "name": "S3 (Simple Storage Service)",
+    "released": "2006-03-14",
+    "link": "https://press.aboutamazon.com/news-releases/news-release-details/amazon-web-services-launches-amazon-s3-simple-storage-service",
+    "icon": "s3"
   },
   {
     "name": "SES (Simple Email Service)",
