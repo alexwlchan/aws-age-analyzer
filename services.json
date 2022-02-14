@@ -18,6 +18,12 @@
     "icon": "amplify"
   },
   {
+    "name": "App Mesh",
+    "released": "2019-03-27",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2019/03/aws-app-mesh-is-now-generally-available/",
+    "icon": "app_mesh"
+  },
+  {
     "name": "App Runner",
     "released": "2021-05-18",
     "link": "https://aws.amazon.com/blogs/containers/introducing-aws-app-runner/",
@@ -108,10 +114,22 @@
     "icon": "chatbot"
   },
   {
+    "name": "Client VPN",
+    "released": "2020-03-17",
+    "link": "https://aws.amazon.com/blogs/networking-and-content-delivery/introducing-aws-client-vpn-to-securely-access-aws-and-on-premises-resources/",
+    "icon": "client_vpn"
+  },
+  {
     "name": "Cloud Directory",
     "released": "2017-01-26",
     "link": "https://aws.amazon.com/about-aws/whats-new/2017/01/amazon-cloud-directory-now-generally-available/",
     "icon": "cloud_directory"
+  },
+  {
+    "name": "Cloud Map",
+    "released": "2018-11-28",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-aws-cloud-map/",
+    "icon": "cloud_map"
   },
   {
     "name": "Cloud9",
@@ -136,12 +154,6 @@
     "released": "2012-04-11",
     "link": "https://www.allthingsdistributed.com/2012/04/amazon-cloudsearch.html",
     "icon": "cloudsearch"
-  },
-  {
-    "name": "CloudShell",
-    "released": "2020-12-15",
-    "link": "https://aws.amazon.com/about-aws/whats-new/2020/12/introducing-aws-cloudshell/",
-    "icon": "cloudshell"
   },
   {
     "name": "CloudShell",
@@ -624,6 +636,12 @@
     "icon": "robomaker"
   },
   {
+    "name": "Route 53",
+    "released": "2010-12-05",
+    "link": "https://aws.amazon.com/blogs/aws/amazon-route-53-the-aws-domain-name-service/",
+    "icon": "route53"
+  },
+  {
     "name": "S3 (Simple Storage Service)",
     "released": "2006-03-14",
     "link": "https://press.aboutamazon.com/news-releases/news-release-details/amazon-web-services-launches-amazon-s3-simple-storage-service",
@@ -724,6 +742,12 @@
     "released": "2018-04-04",
     "link": "https://aws.amazon.com/about-aws/whats-new/2018/04/amazon-translate-is-now-generally-available/",
     "icon": "translate"
+  },
+  {
+    "name": "Virtual Private Cloud (VPC)",
+    "released": "2009-08-25",
+    "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-virtual-private-cloud-vpc/",
+    "icon": "vpc"
   },
   {
     "name": "Wavelength",
