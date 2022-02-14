@@ -24,6 +24,12 @@
     "icon": "appflow"
   },
   {
+    "name": "AppStream",
+    "released": "2013-11-13",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2013/11/13/introducing-amazon-appstream/",
+    "icon": "appstream"
+  },
+  {
     "name": "AppSync",
     "released": "2018-04-13",
     "link": "https://aws.amazon.com/about-aws/whats-new/2018/04/aws-appsync-now-ga/",
@@ -66,16 +72,70 @@
     "icon": "budgets"
   },
   {
+    "name": "Cloud9",
+    "released": "2017-11-30",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-aws-cloud9/",
+    "icon": "cloud9"
+  },
+  {
     "name": "CloudSearch",
     "released": "2012-04-11",
     "link": "https://www.allthingsdistributed.com/2012/04/amazon-cloudsearch.html",
     "icon": "cloudsearch"
   },
   {
+    "name": "CloudShell",
+    "released": "2020-12-15",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/12/introducing-aws-cloudshell/",
+    "icon": "cloudshell"
+  },
+  {
+    "name": "CloudShell",
+    "released": "2020-12-15",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/12/introducing-aws-cloudshell/",
+    "icon": "cloudshell"
+  },
+  {
+    "name": "CodeArtifact",
+    "released": "2020-06-10",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/06/introducing-aws-codeartifact-a-fully-managed-software-artifact-repository-service/",
+    "icon": "codeartifact"
+  },
+  {
+    "name": "CodeCommit",
+    "released": "2015-07-09",
+    "link": "https://aws.amazon.com/blogs/aws/now-available-aws-codecommit/",
+    "icon": "codecommit"
+  },
+  {
+    "name": "CodeDeploy",
+    "released": "2014-11-12",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2014/11/12/introducing-aws-codedeploy/",
+    "icon": "codedeploy"
+  },
+  {
+    "name": "CodeStar",
+    "released": "2017-04-19",
+    "link": "https://aws.amazon.com/blogs/aws/new-aws-codestar/",
+    "icon": "codestar"
+  },
+  {
+    "name": "Command Line Interface (CLI)",
+    "released": "2012-12-21",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2012/12/21/introducing-the-aws-command-line-interface/",
+    "icon": "cli"
+  },
+  {
     "name": "Connect",
     "released": "2017-03-28",
     "link": "https://aws.amazon.com/about-aws/whats-new/2017/03/introducing-amazon-connect/",
     "icon": "connect"
+  },
+  {
+    "name": "Corretto",
+    "released": "2019-01-31",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2019/01/amazon-corretto-is-now-generally-available/",
+    "icon": "corretto"
   },
   {
     "name": "Cost Explorer",
@@ -124,6 +184,12 @@
     "released": "2015-04-09",
     "link": "https://aws.amazon.com/blogs/compute/amazon-ec2-container-service-is-now-generally-available/",
     "icon": "ecs"
+  },
+  {
+    "name": "EKS (Elastic Kubernetes Service)",
+    "released": "2018-06-05",
+    "link": "https://aws.amazon.com/blogs/aws/amazon-eks-now-generally-available/",
+    "icon": "eks"
   },
   {
     "name": "EMR (Elastic MapReduce)",
@@ -246,6 +312,12 @@
     "icon": "rds"
   },
   {
+    "name": "Red Hat OpenShift",
+    "released": "2021-03-24",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2021/03/amazon-and-red-hat-announce-general-availability-rosa/",
+    "icon": "red_hat_openshift"
+  },
+  {
     "name": "Redshift",
     "released": "2013-02-15",
     "link": "https://www.businesswire.com/news/home/20130215005204/en/Amazon-Web-Services-Amazon-Redshift-Customers",
@@ -300,9 +372,27 @@
     "icon": "wavelength"
   },
   {
+    "name": "WorkLink",
+    "released": "2019-01-23",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2019/01/introducing-amazon-worklink/",
+    "icon": "worklink"
+  },
+  {
+    "name": "WorkSpaces",
+    "released": "2013-11-13",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2013/11/13/introducing-amazon-workspaces/",
+    "icon": "workspaces"
+  },
+  {
     "name": "Workmail",
     "released": "2015-01-28",
     "link": "https://aws.amazon.com/about-aws/whats-new/2015/01/28/introducing-amazon-workmail/",
     "icon": "workmail"
+  },
+  {
+    "name": "X-Ray",
+    "released": "2017-04-19",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2017/04/aws-x-ray-now-generally-available/",
+    "icon": "xray"
   }
 ]
