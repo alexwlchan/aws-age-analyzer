@@ -186,6 +186,24 @@
     "icon": "database_migration_service"
   },
   {
+    "name": "DeepComposer",
+    "released": "2020-04-02",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/aws-deepcomposer-now-generally-available/",
+    "icon": "deepcomposer"
+  },
+  {
+    "name": "DeepLens",
+    "released": "2017-11-29",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-aws-deeplens-the-worlds-first-deep-learning-enabled-video-camera-for-developers/",
+    "icon": "deeplens"
+  },
+  {
+    "name": "DeepRacer",
+    "released": "2018-11-28",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-aws-deepracer/",
+    "icon": "deepracer"
+  },
+  {
     "name": "DevOps Guru",
     "released": "2021-05-04",
     "link": "https://aws.amazon.com/about-aws/whats-new/2021/05/amazon-devops-guru-now-generally-available-with-additional-capabilities/",
@@ -342,6 +360,12 @@
     "icon": "lambda"
   },
   {
+    "name": "Lex",
+    "released": "2017-04-19",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2017/04/amazon-lex-now-generally-available/",
+    "icon": "lex"
+  },
+  {
     "name": "Lightsail",
     "released": "2016-11-30",
     "link": "https://aws.amazon.com/about-aws/whats-new/2016/11/introducing-amazon-lightsail/",
@@ -352,6 +376,24 @@
     "released": "2021-06-01",
     "link": "https://aws.amazon.com/blogs/aws/amazon-location-service-is-now-generally-available-with-new-routing-and-satellite-imagery-capabilities/",
     "icon": "location_service"
+  },
+  {
+    "name": "Lookout for Equipment",
+    "released": "2021-04-08",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2021/04/detect-abnormal-equipment-behavior-amazon-lookout-equipment-generally-available/",
+    "icon": "lookout_for_equipment"
+  },
+  {
+    "name": "Lookout for Metrics",
+    "released": "2021-03-25",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2021/03/amazon-lookout-for-metrics-generally-available/",
+    "icon": "lookout_for_metrics"
+  },
+  {
+    "name": "Lookout for Vision",
+    "released": "2021-02-24",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2021/02/automate-quality-inspection-amazon-lookout-vision-generally-available/",
+    "icon": "lookout_for_vision"
   },
   {
     "name": "MQ",
@@ -366,16 +408,34 @@
     "icon": "managed_blockchain"
   },
   {
+    "name": "Monitron",
+    "released": "2020-12-01",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/12/introducing-amazon-monitron/",
+    "icon": "monitron"
+  },
+  {
     "name": "Neptune",
     "released": "2018-05-30",
     "link": "https://aws.amazon.com/blogs/aws/amazon-neptune-generally-available/",
     "icon": "neptune"
   },
   {
+    "name": "Personalize",
+    "released": "2019-06-10",
+    "link": "https://aws.amazon.com/blogs/aws/amazon-personalize-is-now-generally-available//",
+    "icon": "personalize"
+  },
+  {
     "name": "Pinpoint",
     "released": "2016-12-01",
     "link": "https://aws.amazon.com/about-aws/whats-new/2016/12/introducing-amazon-pinpoint/",
     "icon": "pinpoint"
+  },
+  {
+    "name": "Polly",
+    "released": "2016-11-30",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2016/11/introducing-amazon-polly/",
+    "icon": "polly"
   },
   {
     "name": "Quantum Ledger Database (QLDB)",
@@ -408,6 +468,12 @@
     "icon": "redshift"
   },
   {
+    "name": "Rekognition",
+    "released": "2016-11-30",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2016/11/introducing-amazon-rekognition/",
+    "icon": "rekognition"
+  },
+  {
     "name": "RoboMaker",
     "released": "2018-11-26",
     "link": "https://press.aboutamazon.com/news-releases/news-release-details/amazon-web-services-announces-aws-robomaker",
@@ -438,6 +504,12 @@
     "icon": "sqs"
   },
   {
+    "name": "SageMaker",
+    "released": "2017-11-29",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-amazon-sagemaker/",
+    "icon": "sagemaker"
+  },
+  {
     "name": "Savings Plans",
     "released": "2016-11-06",
     "link": "https://aws.amazon.com/about-aws/whats-new/2019/11/introducing-savings-plans/",
@@ -456,10 +528,34 @@
     "icon": "step_functions"
   },
   {
+    "name": "Textract",
+    "released": "2019-05-29",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2019/05/amazon-textract-now-generally-available/",
+    "icon": "textract"
+  },
+  {
     "name": "Timestream",
     "released": "2020-09-30",
     "link": "https://aws.amazon.com/about-aws/whats-new/2020/09/amazon-timestream-now-generally-available/",
     "icon": "timestream"
+  },
+  {
+    "name": "TorchServe",
+    "released": "2020-04-21",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/introducing-torchserve/",
+    "icon": "torchserve"
+  },
+  {
+    "name": "Transcribe",
+    "released": "2018-04-04",
+    "link": "https://aws.amazon.com/blogs/aws/amazon-transcribe-now-generally-available/",
+    "icon": "transcribe"
+  },
+  {
+    "name": "Translate",
+    "released": "2018-04-04",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2018/04/amazon-translate-is-now-generally-available/",
+    "icon": "translate"
   },
   {
     "name": "Wavelength",
