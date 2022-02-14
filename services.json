@@ -108,6 +108,12 @@
     "icon": "chatbot"
   },
   {
+    "name": "Cloud Directory",
+    "released": "2017-01-26",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2017/01/amazon-cloud-directory-now-generally-available/",
+    "icon": "cloud_directory"
+  },
+  {
     "name": "Cloud9",
     "released": "2017-11-30",
     "link": "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-aws-cloud9/",
@@ -118,6 +124,12 @@
     "released": "2011-02-25",
     "link": "https://aws.amazon.com/about-aws/whats-new/2011/02/25/introducing-aws-cloudformation/",
     "icon": "cloudformation"
+  },
+  {
+    "name": "CloudFront",
+    "released": "2008-11-17",
+    "link": "https://www.allthingsdistributed.com/2008/11/amazon_cloudfront.html",
+    "icon": "cloudfront"
   },
   {
     "name": "CloudSearch",
@@ -244,6 +256,12 @@
     "released": "2019-11-13",
     "link": "https://aws.amazon.com/about-aws/whats-new/2019/11/introducing-aws-data-exchange/",
     "icon": "data_exchange"
+  },
+  {
+    "name": "DataSync",
+    "released": "2018-11-26",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-aws-datasync-for-accelerated-online-data-transfer/",
+    "icon": "datasync"
   },
   {
     "name": "Database Migration Service",
@@ -516,6 +534,12 @@
     "icon": "managed_prometheseus"
   },
   {
+    "name": "Migration Hub",
+    "released": "2017-08-14",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2017/08/introducing-aws-migration-hub/",
+    "icon": "migration_hub"
+  },
+  {
     "name": "Monitron",
     "released": "2020-12-01",
     "link": "https://aws.amazon.com/about-aws/whats-new/2020/12/introducing-amazon-monitron/",
@@ -550,6 +574,12 @@
     "released": "2016-11-30",
     "link": "https://aws.amazon.com/about-aws/whats-new/2016/11/introducing-amazon-polly/",
     "icon": "polly"
+  },
+  {
+    "name": "Proton",
+    "released": "2020-12-01",
+    "link": "https://aws.amazon.com/blogs/containers/intro-to-aws-proton/",
+    "icon": "proton"
   },
   {
     "name": "Quantum Ledger Database (QLDB)",
@@ -636,10 +666,28 @@
     "icon": "serverless_application_repository"
   },
   {
+    "name": "Service Catalog",
+    "released": "2015-07-09",
+    "link": "https://aws.amazon.com/blogs/aws/now-available-aws-service-catalog/",
+    "icon": "service_catalog"
+  },
+  {
     "name": "Step Functions",
     "released": "2016-12-01",
     "link": "https://aws.amazon.com/about-aws/whats-new/2016/12/introducing-aws-step-functions/",
     "icon": "step_functions"
+  },
+  {
+    "name": "Systems Manager",
+    "released": "2017-11-29",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2017/11/aws-announces-aws-systems-manager/",
+    "icon": "systems_manager"
+  },
+  {
+    "name": "Systems Manager Incident Manager",
+    "released": "2021-05-10",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2021/05/introducing-incident-manager-aws-systems-manager/",
+    "icon": "incident_manager"
   },
   {
     "name": "Textract",
@@ -666,6 +714,12 @@
     "icon": "transcribe"
   },
   {
+    "name": "Transfer Family",
+    "released": "2020-04-23",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/introducing-aws-transfer-family/",
+    "icon": "transfer_family"
+  },
+  {
     "name": "Translate",
     "released": "2018-04-04",
     "link": "https://aws.amazon.com/about-aws/whats-new/2018/04/amazon-translate-is-now-generally-available/",
@@ -676,6 +730,12 @@
     "released": "2020-08-22",
     "link": "https://www.infoq.com/news/2020/08/aws-wavelength/",
     "icon": "wavelength"
+  },
+  {
+    "name": "Well-Architected Tool",
+    "released": "2018-11-29",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-aws-well-architected-tool/",
+    "icon": "well_architected_tool"
   },
   {
     "name": "WorkLink",

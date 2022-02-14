@@ -41,7 +41,7 @@ service_html = services.map do |tech|
     <a target="_blank" rel='noopener noreferrer' href="#{tech['link']}">
       #{icon(tech['icon'])}
       <strong>#{tech['name']}</strong>
-    </a> has been out for <strong>#{years_since(tech['released'])}</strong>
+    </a> was introduced <strong>#{years_since(tech['released'])} ago</strong>
   </p>
   HTML
 end.join
