@@ -6,6 +6,12 @@
     "icon": "api_gateway"
   },
   {
+    "name": "Activate",
+    "released": "2013-10-10",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2013/10/10/announcing-aws-activate-a-new-global-program-for-startups/",
+    "icon": "activate"
+  },
+  {
     "name": "Alexa for Business",
     "released": "2017-11-30",
     "link": "https://aws.amazon.com/about-aws/whats-new/2017/11/alexa-for-business-is-now-generally-available/",
@@ -58,6 +64,12 @@
     "released": "2021-05-26",
     "link": "https://aws.amazon.com/blogs/aws-cloud-financial-management/introducing-aws-application-cost-profiler-offering-user-based-cost-data-of-shared-aws-resources/",
     "icon": "application_cost_profiler"
+  },
+  {
+    "name": "Application Discovery Service",
+    "released": "2016-05-12",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2016/05/now-available-aws-application-discovery-service/",
+    "icon": "application_discovery_service"
   },
   {
     "name": "Artifact",
@@ -144,6 +156,12 @@
     "icon": "chatbot"
   },
   {
+    "name": "Chime",
+    "released": "2017-02-13",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2017/02/announcing-amazon-chime-frustration-free-online-meetings-with-exceptional-audio-and-video-quality/",
+    "icon": "chime"
+  },
+  {
     "name": "Client VPN",
     "released": "2020-03-17",
     "link": "https://aws.amazon.com/blogs/networking-and-content-delivery/introducing-aws-client-vpn-to-securely-access-aws-and-on-premises-resources/",
@@ -216,9 +234,15 @@
     "icon": "codeartifact"
   },
   {
+    "name": "CodeBuild",
+    "released": "2016-12-01",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2016/12/announcing-aws-codebuild/",
+    "icon": "managed_services"
+  },
+  {
     "name": "CodeCommit",
-    "released": "2015-07-09",
-    "link": "https://aws.amazon.com/blogs/aws/now-available-aws-codecommit/",
+    "released": "2014-11-12",
+    "link": "https://aws.amazon.com/blogs/aws/code-management-and-deployment/",
     "icon": "codecommit"
   },
   {
@@ -232,6 +256,12 @@
     "released": "2020-06-29",
     "link": "https://aws.amazon.com/about-aws/whats-new/2020/06/amazon-codeguru-now-generally-available/",
     "icon": "codeguru"
+  },
+  {
+    "name": "CodePipeline",
+    "released": "2014-11-12",
+    "link": "https://aws.amazon.com/blogs/aws/code-management-and-deployment/",
+    "icon": "codepipeline"
   },
   {
     "name": "CodeStar",
@@ -256,24 +286,6 @@
     "released": "2017-11-29",
     "link": "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-amazon-comprehend-discover-insights-from-text/",
     "icon": "comprehend"
-  },
-  {
-    "name": "Config",
-    "released": "2014-11-12",
-    "link": "https://aws.amazon.com/about-aws/whats-new/2014/11/12/introducing-aws-config/",
-    "icon": "config"
-  },
-  {
-    "name": "Config",
-    "released": "2014-11-12",
-    "link": "https://aws.amazon.com/about-aws/whats-new/2014/11/12/introducing-aws-config/",
-    "icon": "config"
-  },
-  {
-    "name": "Config",
-    "released": "2014-11-12",
-    "link": "https://aws.amazon.com/about-aws/whats-new/2014/11/12/introducing-aws-config/",
-    "icon": "config"
   },
   {
     "name": "Config",
@@ -310,6 +322,12 @@
     "released": "2019-11-13",
     "link": "https://aws.amazon.com/about-aws/whats-new/2019/11/introducing-aws-data-exchange/",
     "icon": "data_exchange"
+  },
+  {
+    "name": "Data Pipeline",
+    "released": "2012-11-29",
+    "link": "https://aws.amazon.com/blogs/aws/the-new-amazon-data-pipeline/",
+    "icon": "api_gateway"
   },
   {
     "name": "DataSync",
@@ -456,6 +474,48 @@
     "icon": "elasticache"
   },
   {
+    "name": "Elemental Link",
+    "released": "2020-04-20",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/introducing-aws-elemental-link-a-device-to-send-live-video-to-aws/",
+    "icon": "elemental_link"
+  },
+  {
+    "name": "Elemental MediaConnect",
+    "released": "2018-11-27",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-aws-elemental-mediaconnect/",
+    "icon": "elemental_mediaconnect"
+  },
+  {
+    "name": "Elemental MediaConvert",
+    "released": "2017-11-26",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-aws-elemental-mediaconvert/",
+    "icon": "elemental_mediaconvert"
+  },
+  {
+    "name": "Elemental MediaLive",
+    "released": "2017-11-26",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-aws-elemental-medialive/",
+    "icon": "elemental_medialive"
+  },
+  {
+    "name": "Elemental MediaPackage",
+    "released": "2017-11-26",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-aws-elemental-mediapackage/",
+    "icon": "elemental_mediapackage"
+  },
+  {
+    "name": "Elemental MediaStore",
+    "released": "2017-11-26",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-aws-elemental-mediastore/",
+    "icon": "elemental_mediastore"
+  },
+  {
+    "name": "Elemental MediaTailor",
+    "released": "2017-11-26",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-aws-elemental-mediatailor/",
+    "icon": "elemental_mediatailor"
+  },
+  {
     "name": "EventBridge",
     "released": "2019-07-11",
     "link": "https://aws.amazon.com/about-aws/whats-new/2019/07/introducing-amazon-eventbridge/",
@@ -540,10 +600,22 @@
     "icon": "honeycode"
   },
   {
+    "name": "IQ",
+    "released": "2019-09-30",
+    "link": "https://aws.amazon.com/blogs/aws/aws-iq-get-help-from-aws-certified-third-party-experts-on-demand/",
+    "icon": "iq"
+  },
+  {
     "name": "Identity and Access Management (IAM)",
     "released": "2011-05-03",
     "link": "https://aws.amazon.com/blogs/aws/iam-identity-access-management/",
     "icon": "iam"
+  },
+  {
+    "name": "Inspector",
+    "released": "2021-11-29",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2021/11/amazon-inspector-continual-vulnerability-management/",
+    "icon": "inspector"
   },
   {
     "name": "Interactive Video Service (IVS)",
@@ -660,6 +732,12 @@
     "icon": "managed_prometheseus"
   },
   {
+    "name": "Managed Services",
+    "released": "2016-12-12",
+    "link": "https://aws.amazon.com/blogs/apn/introducing-aws-managed-services/",
+    "icon": "managed_services"
+  },
+  {
     "name": "Migration Hub",
     "released": "2017-08-14",
     "link": "https://aws.amazon.com/about-aws/whats-new/2017/08/introducing-aws-migration-hub/",
@@ -688,6 +766,12 @@
     "released": "2021-04-28",
     "link": "https://aws.amazon.com/about-aws/whats-new/2021/04/aws-announces-general-availability-amazon-nimble-studio/",
     "icon": "nimble_studio"
+  },
+  {
+    "name": "OpenSearch Service (formerly Elasticsearch Service)",
+    "released": "2015-10-01",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2015/10/introducing-amazon-elasticsearch-service/",
+    "icon": "opensearch"
   },
   {
     "name": "Personalize",
@@ -864,10 +948,22 @@
     "icon": "snowcone"
   },
   {
+    "name": "Snowmobile",
+    "released": "2016-11-30",
+    "link": "https://aws.amazon.com/blogs/aws/aws-snowmobile-move-exabytes-of-data-to-the-cloud-in-weeks/",
+    "icon": "snowmobile"
+  },
+  {
     "name": "Step Functions",
     "released": "2016-12-01",
     "link": "https://aws.amazon.com/about-aws/whats-new/2016/12/introducing-aws-step-functions/",
     "icon": "step_functions"
+  },
+  {
+    "name": "Storage Gateway",
+    "released": "2012-01-24",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2012/01/24/announcing-aws-storage-gateway/",
+    "icon": "storage_gateway"
   },
   {
     "name": "Sumerian",
@@ -952,6 +1048,12 @@
     "released": "2018-11-29",
     "link": "https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-aws-well-architected-tool/",
     "icon": "well_architected_tool"
+  },
+  {
+    "name": "WorkDocs (formerly Zocalo)",
+    "released": "2014-07-10",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2014/07/10/introducing-amazon-zocalo/",
+    "icon": "workdocs"
   },
   {
     "name": "WorkLink",

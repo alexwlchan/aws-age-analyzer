@@ -35,6 +35,7 @@
       <header class="App-header">
         <h1>How long has Amazon/AWS <input id="tech-dropdown" type="search" list="technologies" placeholder="s3, lambda, sqs, etc." onChange={this.filterChanged} ref={this.filterInput} /> existed?
           <datalist id="technologies">  <option value="API Gateway"></option>
+  <option value="Activate"></option>
   <option value="Alexa for Business"></option>
   <option value="Amplify"></option>
   <option value="App Mesh"></option>
@@ -44,6 +45,7 @@
   <option value="AppStream"></option>
   <option value="AppSync"></option>
   <option value="Application Cost Profiler"></option>
+  <option value="Application Discovery Service"></option>
   <option value="Artifact"></option>
   <option value="Athena"></option>
   <option value="Audit Manager"></option>
@@ -58,6 +60,7 @@
   <option value="Budgets"></option>
   <option value="Certificate Manager"></option>
   <option value="Chatbot"></option>
+  <option value="Chime"></option>
   <option value="Client VPN"></option>
   <option value="Cloud Directory"></option>
   <option value="Cloud Map"></option>
@@ -70,22 +73,22 @@
   <option value="CloudTrail"></option>
   <option value="CloudWatch"></option>
   <option value="CodeArtifact"></option>
+  <option value="CodeBuild"></option>
   <option value="CodeCommit"></option>
   <option value="CodeDeploy"></option>
   <option value="CodeGuru"></option>
+  <option value="CodePipeline"></option>
   <option value="CodeStar"></option>
   <option value="Cognito"></option>
   <option value="Command Line Interface (CLI)"></option>
   <option value="Comprehend"></option>
-  <option value="Config"></option>
-  <option value="Config"></option>
-  <option value="Config"></option>
   <option value="Config"></option>
   <option value="Connect"></option>
   <option value="Control Tower"></option>
   <option value="Corretto"></option>
   <option value="Cost Explorer"></option>
   <option value="Data Exchange"></option>
+  <option value="Data Pipeline"></option>
   <option value="DataSync"></option>
   <option value="Database Migration Service"></option>
   <option value="DeepComposer"></option>
@@ -110,6 +113,13 @@
   <option value="Elastic Inference"></option>
   <option value="Elastic Transcoder"></option>
   <option value="ElasticCache"></option>
+  <option value="Elemental Link"></option>
+  <option value="Elemental MediaConnect"></option>
+  <option value="Elemental MediaConvert"></option>
+  <option value="Elemental MediaLive"></option>
+  <option value="Elemental MediaPackage"></option>
+  <option value="Elemental MediaStore"></option>
+  <option value="Elemental MediaTailor"></option>
   <option value="EventBridge"></option>
   <option value="Fargate"></option>
   <option value="Fault Injection Simulator (FIS)"></option>
@@ -124,7 +134,9 @@
   <option value="GuardDuty"></option>
   <option value="HealthLake"></option>
   <option value="Honeycode"></option>
+  <option value="IQ"></option>
   <option value="Identity and Access Management (IAM)"></option>
+  <option value="Inspector"></option>
   <option value="Interactive Video Service (IVS)"></option>
   <option value="IoT"></option>
   <option value="Kendra"></option>
@@ -144,11 +156,13 @@
   <option value="Managed Blockchain"></option>
   <option value="Managed Grafana"></option>
   <option value="Managed Prometheus"></option>
+  <option value="Managed Services"></option>
   <option value="Migration Hub"></option>
   <option value="Monitron"></option>
   <option value="Neptune"></option>
   <option value="Network Firewall"></option>
   <option value="Nimble Studio"></option>
+  <option value="OpenSearch Service (formerly Elasticsearch Service)"></option>
   <option value="Personalize"></option>
   <option value="Pinpoint"></option>
   <option value="Polly"></option>
@@ -178,7 +192,9 @@
   <option value="Snowball"></option>
   <option value="Snowball Edge"></option>
   <option value="Snowcone"></option>
+  <option value="Snowmobile"></option>
   <option value="Step Functions"></option>
+  <option value="Storage Gateway"></option>
   <option value="Sumerian"></option>
   <option value="Systems Manager"></option>
   <option value="Systems Manager Incident Manager"></option>
@@ -193,6 +209,7 @@
   <option value="WAF"></option>
   <option value="Wavelength"></option>
   <option value="Well-Architected Tool"></option>
+  <option value="WorkDocs (formerly Zocalo)"></option>
   <option value="WorkLink"></option>
   <option value="WorkSpaces"></option>
   <option value="Workmail"></option>
@@ -226,6 +243,29 @@
 </svg>
       <strong>API Gateway</strong>
     </a> was introduced <strong>6 years ago</strong>
+  </p>
+  <p data-name="Activate">
+    <a target="_blank" rel='noopener noreferrer' href="https://aws.amazon.com/about-aws/whats-new/2013/10/10/announcing-aws-activate-a-new-global-program-for-startups/">
+      <?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon-Architecture/16/Arch_AWS-Activate_16</title>
+    <defs>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#2E27AD" offset="0%"></stop>
+            <stop stop-color="#527FFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Icon-Architecture/16/Arch_AWS-Activate_16" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rectangle" fill="url(#linearGradient-1)">
+            <rect x="0" y="0" width="24" height="24"></rect>
+        </g>
+        <g id="Icon-Service/16/AWS-Activate_16" transform="translate(4.000000, 4.000000)" fill="#FFFFFF">
+            <path d="M15.3203,7.9138 C15.3203,10.7848 13.6833,13.4188 11.1403,14.7228 L11.1403,13.5808 C13.0903,12.3788 14.3203,10.2348 14.3203,7.9138 C14.3203,5.1298 12.5583,2.6628 10.0193,1.6948 L9.4993,0.4818 C12.8853,1.3198 15.3203,4.4008 15.3203,7.9138 L15.3203,7.9138 Z M4.1723,13.5718 L4.1723,14.7328 C1.5983,13.4148 0.0003,10.8078 0.0003,7.9138 C0.0003,4.3588 2.3873,1.3248 5.8213,0.4798 L5.2993,1.6988 C2.7323,2.6638 1.0003,5.0948 1.0003,7.9138 C1.0003,10.2508 2.2083,12.3628 4.1723,13.5718 L4.1723,13.5718 Z M5.1833,15.9988 L6.1833,15.9988 L6.1833,10.3528 L5.1833,10.3528 L5.1833,15.9988 Z M9.1363,15.9988 L10.1363,15.9988 L10.1363,10.3528 L9.1363,10.3528 L9.1363,15.9988 Z M7.1613,14.8698 L8.1613,14.8698 L8.1613,8.6588 L7.1613,8.6588 L7.1613,14.8698 Z M7.9643,5.7408 C7.8003,5.6168 7.5283,5.6378 7.3533,5.7438 L5.2453,7.3508 L7.6603,1.7008 L10.0753,7.3498 L7.9643,5.7408 Z M11.5883,9.2918 C11.7663,9.1528 11.8293,8.9098 11.7403,8.7018 L8.1383,0.2758 C7.9803,-0.0922 7.3403,-0.0922 7.1813,0.2758 L3.5803,8.7018 C3.4913,8.9098 3.5533,9.1528 3.7323,9.2918 C3.9123,9.4318 4.1633,9.4328 4.3423,9.2948 L7.6583,6.7648 L10.9773,9.2948 C11.0663,9.3638 11.1743,9.3978 11.2803,9.3978 C11.3883,9.3978 11.4973,9.3628 11.5883,9.2918 L11.5883,9.2918 Z" id="AWS-Activate_16_Squid"></path>
+        </g>
+    </g>
+</svg>
+      <strong>Activate</strong>
+    </a> was introduced <strong>8 years ago</strong>
   </p>
   <p data-name="Alexa for Business">
     <a target="_blank" rel='noopener noreferrer' href="https://aws.amazon.com/about-aws/whats-new/2017/11/alexa-for-business-is-now-generally-available/">
@@ -435,6 +475,29 @@
 </svg>
       <strong>Application Cost Profiler</strong>
     </a> was introduced <strong>hardly any time at all! ago</strong>
+  </p>
+  <p data-name="Application Discovery Service">
+    <a target="_blank" rel='noopener noreferrer' href="https://aws.amazon.com/about-aws/whats-new/2016/05/now-available-aws-application-discovery-service/">
+      <?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Icon-Architecture/16/Arch_AWS-Application-Discovery-Service_16</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#055F4E" offset="0%"></stop>
+            <stop stop-color="#56C0A7" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Icon-Architecture/16/Arch_AWS-Application-Discovery-Service_16" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon-Architecture-BG/16/Migration-Transfer" fill="url(#linearGradient-1)">
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+        </g>
+        <path d="M7.99181414,12.029029 L10.9976983,12.029029 L10.9976983,11.028028 L7.99181414,11.028028 L7.99181414,12.029029 Z M18.9051775,17.3513514 L14.8642672,13.5465465 C14.4975494,14.044044 14.0556844,14.4824825 13.5547037,14.8488488 L17.3721766,18.8318318 C17.4413119,18.9019019 17.6487179,18.966967 17.9362808,18.9369369 C18.2238437,18.9099099 18.4983812,18.7967968 18.6506793,18.6446446 C18.8099911,18.4854855 18.9412481,18.1941942 18.9833305,17.9029029 C19.0254128,17.6196196 18.9723089,17.4174174 18.9051775,17.3513514 L18.9051775,17.3513514 Z M9.95565844,15.026026 C12.7571425,15.026026 15.0366046,12.7737738 15.0366046,10.005005 C15.0366046,7.24524525 12.7571425,5.001001 9.95565844,5.001001 C7.1782215,5.001001 5.00196138,7.1991992 5.00196138,10.005005 C5.00196138,12.8208208 7.1782215,15.026026 9.95565844,15.026026 L9.95565844,15.026026 Z M19.9752722,18.048048 C19.9011271,18.5535536 19.6716779,19.041041 19.359066,19.3533534 C19.0414442,19.6706707 18.5574969,19.8828829 18.0334711,19.9339339 C17.9553181,19.9409409 17.8781671,19.9449449 17.802018,19.9449449 C17.3331001,19.9449449 16.9222959,19.7997998 16.6557742,19.5325325 L12.6789895,15.3823824 C11.8593851,15.7907908 10.9355767,16.027027 9.95565844,16.027027 C6.61612116,16.027027 4,13.3823824 4,10.005005 C4,6.63763764 6.61612116,4 9.95565844,4 C13.3102251,4 16.038566,6.69369369 16.038566,10.005005 C16.038566,10.964965 15.804107,11.8698699 15.3993146,12.6756757 L19.6025426,16.6326326 C19.9271781,16.956957 20.059437,17.4684685 19.9752722,18.048048 L19.9752722,18.048048 Z M12.5166717,6.95595596 L7.99181414,6.95595596 L7.99181414,7.95695696 L12.015691,7.95695696 L12.015691,12.992993 L13.0176524,12.992993 L13.0176524,7.45645646 C13.0176524,7.17917918 12.7932131,6.95595596 12.5166717,6.95595596 L12.5166717,6.95595596 Z M11.0187395,18.998999 L6.98985276,18.998999 L6.98985276,15.995996 L5.98789138,15.995996 L5.98789138,19.4994995 C5.98789138,19.7767768 6.21233073,20 6.48887207,20 L11.5197202,20 C11.7962615,20 12.0207008,19.7767768 12.0207008,19.4994995 L12.0207008,16.996997 L11.0187395,16.996997 L11.0187395,18.998999 Z M6.98985276,10.021021 L10.9976983,10.021021 L10.9976983,9.02002002 L6.98985276,9.02002002 L6.98985276,10.021021 Z" id="AWS-Application-Discovery-Service_Icon_16_Squid" fill="#FFFFFF"></path>
+    </g>
+</svg>
+      <strong>Application Discovery Service</strong>
+    </a> was introduced <strong>5 years ago</strong>
   </p>
   <p data-name="Artifact">
     <a target="_blank" rel='noopener noreferrer' href="https://aws.amazon.com/blogs/security/introducing-aws-artifact-speeding-access-to-compliance-reports/">
@@ -760,6 +823,29 @@
       <strong>Chatbot</strong>
     </a> was introduced <strong>2 years ago</strong>
   </p>
+  <p data-name="Chime">
+    <a target="_blank" rel='noopener noreferrer' href="https://aws.amazon.com/about-aws/whats-new/2017/02/announcing-amazon-chime-frustration-free-online-meetings-with-exceptional-audio-and-video-quality/">
+      <?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Icon-Architecture/16/Arch_Amazon-Chime_16</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#BD0816" offset="0%"></stop>
+            <stop stop-color="#FF5252" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Icon-Architecture/16/Arch_Amazon-Chime_16" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon-Architecture-BG/16/Business-Applications" fill="url(#linearGradient-1)">
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+        </g>
+        <path d="M19,13.495 L15,12.339 L15,11.2 L19,12.364 L19,13.495 Z M16.849,17.382 L16.099,18.133 L14.112,14.572 L14.868,13.816 L16.849,17.382 Z M13.27,14 L11.284,14 C11.135,14 10.997,14.066 10.904,14.175 L10,13.271 L10,11.285 C10,11.135 9.934,10.997 9.825,10.905 L10.73,10 L12.716,10 C12.865,10 13.003,9.933 13.096,9.825 L14,10.729 L14,12.715 C14,12.865 14.066,13.002 14.175,13.095 L13.27,14 Z M11.637,19 L10.505,19 L11.66,15 L12.801,15 L11.637,19 Z M6.618,16.849 L5.867,16.098 L9.428,14.112 L10.184,14.868 L6.618,16.849 Z M5,11.636 L5,10.505 L9,11.661 L9,12.8 L5,11.636 Z M7.151,6.618 L7.901,5.867 L9.888,9.428 L9.132,10.183 L7.151,6.618 Z M12.363,5 L13.495,5 L12.34,9 L11.199,9 L12.363,5 Z M17.382,7.151 L18.133,7.902 L14.572,9.888 L13.816,9.132 L17.382,7.151 Z M19.64,11.508 L15.749,10.376 L19.197,8.453 C19.335,8.376 19.428,8.24 19.449,8.085 C19.471,7.93 19.419,7.773 19.308,7.662 L17.822,6.177 C17.665,6.019 17.421,5.985 17.226,6.094 L13.646,8.083 L14.641,4.639 C14.685,4.488 14.654,4.325 14.56,4.2 C14.465,4.074 14.317,4 14.16,4 L11.988,4 C11.766,4 11.57,4.147 11.508,4.36 L10.376,8.25 L8.452,4.802 C8.376,4.665 8.239,4.572 8.085,4.551 C7.925,4.526 7.773,4.581 7.662,4.692 L6.178,6.177 C6.02,6.335 5.985,6.578 6.094,6.773 L8.083,10.355 L4.639,9.359 C4.489,9.317 4.325,9.346 4.199,9.44 C4.074,9.535 4,9.682 4,9.84 L4,12.012 C4,12.234 4.146,12.43 4.36,12.492 L8.251,13.623 L4.803,15.547 C4.665,15.623 4.572,15.76 4.551,15.915 C4.529,16.07 4.581,16.226 4.692,16.337 L6.178,17.823 C6.336,17.981 6.58,18.015 6.774,17.906 L10.354,15.917 L9.359,19.361 C9.315,19.512 9.346,19.675 9.44,19.8 C9.535,19.926 9.683,20 9.84,20 L12.012,20 C12.234,20 12.43,19.853 12.492,19.64 L13.624,15.749 L15.548,19.198 C15.624,19.334 15.761,19.428 15.915,19.449 C16.076,19.473 16.228,19.418 16.338,19.307 L17.822,17.823 C17.98,17.665 18.015,17.421 17.906,17.226 L15.917,13.645 L19.361,14.641 C19.514,14.685 19.675,14.654 19.801,14.559 C19.926,14.465 20,14.317 20,14.16 L20,11.988 C20,11.766 19.854,11.57 19.64,11.508 L19.64,11.508 Z" id="Amazon-Chime_Icon_16_Squid" fill="#FFFFFF"></path>
+    </g>
+</svg>
+      <strong>Chime</strong>
+    </a> was introduced <strong>5 years ago</strong>
+  </p>
   <p data-name="Client VPN">
     <a target="_blank" rel='noopener noreferrer' href="https://aws.amazon.com/blogs/networking-and-content-delivery/introducing-aws-client-vpn-to-securely-access-aws-and-on-premises-resources/">
       <?xml version="1.0" encoding="UTF-8"?>
@@ -1036,8 +1122,33 @@
       <strong>CodeArtifact</strong>
     </a> was introduced <strong>1 year ago</strong>
   </p>
+  <p data-name="CodeBuild">
+    <a target="_blank" rel='noopener noreferrer' href="https://aws.amazon.com/about-aws/whats-new/2016/12/announcing-aws-codebuild/">
+      <?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Icon-Architecture/16/Arch_AWS-Managed-Services_16</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#2E27AD" offset="0%"></stop>
+            <stop stop-color="#527FFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Icon-Architecture/16/Arch_AWS-Managed-Services_16" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon-Architecture-BG/16/Customer-Enablement" fill="url(#linearGradient-1)">
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+        </g>
+        <g id="Icon-Service/16/AWS-Managed-Services" transform="translate(4.000000, 4.000000)" fill="#FFFFFF">
+            <path d="M7.979,1 C4.13,1 1,4.131 1,7.979 C1,11.827 4.13,14.958 7.979,14.958 C9.647,14.958 11.254,14.351 12.511,13.278 L11.331,12.988 L11.569,12.017 L13.633,12.523 L13.629,12.538 C13.651,12.543 13.673,12.534 13.695,12.542 C13.887,12.617 14.014,12.802 14.014,13.009 L14.014,14.979 L13.014,14.979 L13.014,14.168 C11.6,15.316 9.82,15.958 7.979,15.958 C3.579,15.958 7.23865412e-13,12.378 7.23865412e-13,7.979 C7.23865412e-13,3.58 3.579,2.69118061e-13 7.979,2.69118061e-13 C12.379,2.69118061e-13 15.958,3.58 15.958,7.979 L14.958,7.979 C14.958,4.131 11.828,1 7.979,1 L7.979,1 Z M7.421,7.41 C7.57,7.255 7.769,7.168 7.983,7.164 L7.999,7.164 C8.207,7.164 8.403,7.243 8.553,7.388 C8.708,7.536 8.794,7.735 8.799,7.949 C8.803,8.163 8.724,8.365 8.576,8.52 C8.268,8.838 7.762,8.847 7.444,8.542 C7.125,8.236 7.116,7.728 7.421,7.41 L7.421,7.41 Z M7.999,9.764 C8.471,9.764 8.944,9.58 9.296,9.213 C9.63,8.866 9.808,8.41 9.798,7.929 C9.79,7.448 9.593,7 9.247,6.667 C8.531,5.979 7.388,6.001 6.701,6.716 C6.012,7.432 6.035,8.574 6.75,9.263 C7.099,9.598 7.548,9.764 7.999,9.764 L7.999,9.764 Z M5.743,6.492 L5.196,5.518 L6.524,4.555 L7.275,5.37 C7.371,5.473 7.526,5.534 7.646,5.531 L8.329,5.527 C8.467,5.526 8.599,5.468 8.693,5.366 L9.439,4.557 L10.766,5.522 L10.221,6.492 C10.153,6.613 10.138,6.757 10.18,6.89 L10.384,7.528 C10.427,7.662 10.525,7.771 10.652,7.831 L11.666,8.296 L11.158,9.856 L10.063,9.637 C9.924,9.61 9.783,9.641 9.669,9.723 L9.126,10.12 C9.014,10.203 8.941,10.328 8.924,10.466 L8.795,11.569 L7.155,11.568 L7.028,10.473 C7.011,10.336 6.939,10.211 6.829,10.129 L6.28,9.722 C6.167,9.639 6.024,9.606 5.884,9.634 L4.798,9.851 L4.292,8.29 L5.309,7.824 C5.436,7.766 5.533,7.657 5.577,7.524 L5.783,6.892 C5.826,6.759 5.812,6.614 5.743,6.492 L5.743,6.492 Z M3.471,7.566 C3.241,7.672 3.125,7.934 3.204,8.175 L3.984,10.583 C4.061,10.824 4.311,10.969 4.557,10.919 L5.863,10.658 L6.059,10.804 L6.212,12.125 C6.242,12.377 6.456,12.567 6.709,12.567 L9.241,12.569 C9.495,12.569 9.708,12.379 9.738,12.127 L9.893,10.799 L10.082,10.661 L11.397,10.924 C11.647,10.974 11.892,10.83 11.971,10.589 L12.754,8.182 C12.833,7.941 12.718,7.679 12.488,7.573 L11.27,7.014 L11.2,6.792 L11.856,5.625 C11.981,5.403 11.919,5.124 11.714,4.975 L9.667,3.486 C9.463,3.337 9.178,3.365 9.006,3.552 L8.105,4.529 L7.861,4.53 L6.958,3.55 C6.786,3.363 6.503,3.336 6.296,3.484 L4.248,4.97 C4.042,5.119 3.981,5.398 4.106,5.62 L4.764,6.791 L4.694,7.006 L3.471,7.566 Z" id="AWS-Managed-Services_Icon_16_Squid"></path>
+        </g>
+    </g>
+</svg>
+      <strong>CodeBuild</strong>
+    </a> was introduced <strong>5 years ago</strong>
+  </p>
   <p data-name="CodeCommit">
-    <a target="_blank" rel='noopener noreferrer' href="https://aws.amazon.com/blogs/aws/now-available-aws-codecommit/">
+    <a target="_blank" rel='noopener noreferrer' href="https://aws.amazon.com/blogs/aws/code-management-and-deployment/">
       <?xml version="1.0" encoding="UTF-8"?>
 <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
@@ -1057,7 +1168,7 @@
     </g>
 </svg>
       <strong>CodeCommit</strong>
-    </a> was introduced <strong>6 years ago</strong>
+    </a> was introduced <strong>7 years ago</strong>
   </p>
   <p data-name="CodeDeploy">
     <a target="_blank" rel='noopener noreferrer' href="https://aws.amazon.com/about-aws/whats-new/2014/11/12/introducing-aws-codedeploy/">
@@ -1104,6 +1215,29 @@
 </svg>
       <strong>CodeGuru</strong>
     </a> was introduced <strong>1 year ago</strong>
+  </p>
+  <p data-name="CodePipeline">
+    <a target="_blank" rel='noopener noreferrer' href="https://aws.amazon.com/blogs/aws/code-management-and-deployment/">
+      <?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Icon-Architecture/16/Arch_AWS-CodePipeline_16</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#2E27AD" offset="0%"></stop>
+            <stop stop-color="#527FFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Icon-Architecture/16/Arch_AWS-CodePipeline_16" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon-Architecture-BG/16/Developer-Tools" fill="url(#linearGradient-1)">
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+        </g>
+        <path d="M9,9 L10,9 L10,8 L9,8 L9,9 Z M12.496,12.401 L13.426,12.768 L11.498,17.668 L10.568,17.302 L12.496,12.401 Z M16.327,14.648 C16.437,14.743 16.5,14.88 16.5,15.025 C16.5,15.169 16.438,15.307 16.33,15.402 L14.675,16.855 L14.015,16.103 L15.239,15.029 L14.018,13.969 L14.672,13.213 L16.327,14.648 Z M8.735,14.984 L9.992,16.203 L9.295,16.92 L7.651,15.326 C7.552,15.229 7.497,15.094 7.5,14.955 C7.503,14.816 7.564,14.685 7.669,14.592 L9.318,13.134 L9.98,13.883 L8.735,14.984 Z M19,8 L11,8 L11,9 L18.825,9 C18.544,9.589 17.947,10 17.251,10 L7.108,10 C6.354,10 5.695,9.598 5.323,9 L8,9 L8,8 L5.011,8 C5.009,7.963 5,7.928 5,7.891 L5,7.109 C5,5.946 5.946,5 7.108,5 L17.012,5 C18.108,5 19,5.892 19,6.989 L19,8 Z M6.914,19 L6.914,10.98 C6.979,10.984 7.042,11 7.108,11 L17.018,11 L17.018,19 L6.914,19 Z M17.012,4 L7.108,4 C5.395,4 4,5.395 4,7.109 L4,7.891 C4,9.182 4.791,10.291 5.914,10.76 L5.914,19.5 C5.914,19.776 6.138,20 6.414,20 L17.518,20 C17.794,20 18.018,19.776 18.018,19.5 L18.018,10.878 C19.159,10.543 20,9.499 20,8.251 L20,6.989 C20,5.341 18.659,4 17.012,4 L17.012,4 Z" id="AWS-CodePipeline_Icon_16_Squid" fill="#FFFFFF"></path>
+    </g>
+</svg>
+      <strong>CodePipeline</strong>
+    </a> was introduced <strong>7 years ago</strong>
   </p>
   <p data-name="CodeStar">
     <a target="_blank" rel='noopener noreferrer' href="https://aws.amazon.com/blogs/aws/new-aws-codestar/">
@@ -1196,75 +1330,6 @@
 </svg>
       <strong>Comprehend</strong>
     </a> was introduced <strong>4 years ago</strong>
-  </p>
-  <p data-name="Config">
-    <a target="_blank" rel='noopener noreferrer' href="https://aws.amazon.com/about-aws/whats-new/2014/11/12/introducing-aws-config/">
-      <?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
-    <title>Icon-Architecture/16/Arch_AWS-Config_16</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-1">
-            <stop stop-color="#B0084D" offset="0%"></stop>
-            <stop stop-color="#FF4F8B" offset="100%"></stop>
-        </linearGradient>
-    </defs>
-    <g id="Icon-Architecture/16/Arch_AWS-Config_16" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Icon-Architecture-BG/16/Management-Governance" fill="url(#linearGradient-1)">
-            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
-        </g>
-        <path d="M16.059,15.04 C16.011,14.777 15.781,14.592 15.522,14.592 C15.49,14.592 15.457,14.595 15.424,14.601 C15.281,14.627 15.156,14.707 15.073,14.827 C14.99,14.947 14.958,15.092 14.985,15.235 C15.038,15.532 15.323,15.736 15.62,15.675 C15.915,15.622 16.113,15.336 16.059,15.04 L16.059,15.04 Z M17.043,14.862 C17.195,15.701 16.636,16.507 15.798,16.659 C15.705,16.676 15.613,16.684 15.522,16.684 C14.789,16.684 14.136,16.16 14,15.414 C13.926,15.008 14.016,14.597 14.251,14.257 C14.487,13.918 14.84,13.69 15.247,13.617 C16.08,13.466 16.891,14.022 17.043,14.862 L17.043,14.862 Z M18.589,15.77 L18.586,14.473 L17.687,14.37 C17.548,14.354 17.421,14.281 17.339,14.167 L17.001,13.704 C16.919,13.591 16.888,13.449 16.915,13.312 L17.091,12.423 L15.856,12.024 L15.484,12.84 C15.425,12.968 15.315,13.066 15.18,13.109 L14.618,13.288 C14.488,13.33 14.342,13.315 14.222,13.248 L13.444,12.812 L12.683,13.864 L13.346,14.472 C13.449,14.566 13.507,14.698 13.508,14.837 L13.512,15.417 C13.513,15.558 13.455,15.692 13.352,15.788 L12.688,16.403 L13.454,17.451 L14.24,17.006 C14.315,16.963 14.4,16.941 14.486,16.941 C14.538,16.941 14.591,16.949 14.642,16.966 L15.193,17.146 C15.325,17.19 15.432,17.286 15.491,17.412 L15.869,18.23 L17.102,17.826 L16.924,16.953 C16.897,16.817 16.927,16.676 17.007,16.563 L17.35,16.082 C17.432,15.968 17.558,15.893 17.698,15.876 L18.589,15.77 Z M19.5900039,16.213 C19.591,16.466 19.402,16.68 19.15,16.71 L18.036,16.843 L17.948,16.967 L18.17,18.063 C18.22,18.312 18.077,18.559 17.835,18.638 L15.757,19.319 C15.706,19.336 15.654,19.344 15.602,19.344 C15.412,19.344 15.232,19.235 15.148,19.054 L14.674,18.029 L14.539,17.985 L13.558,18.54 C13.339,18.665 13.058,18.605 12.909,18.4 L11.619,16.634 C11.468,16.429 11.496,16.144 11.682,15.972 L12.51,15.204 L12.51,15.061 L11.679,14.3 C11.492,14.128 11.463,13.844 11.612,13.638 L12.894,11.866 C13.044,11.66 13.322,11.6 13.543,11.723 L14.521,12.269 L14.666,12.223 L15.131,11.204 C15.236,10.973 15.496,10.854 15.74,10.936 L17.821,11.608 C18.062,11.686 18.207,11.932 18.158,12.18 L17.939,13.291 L18.019,13.402 L19.142,13.53 C19.394,13.558 19.584,13.771 19.585,14.025 L19.5900039,16.213 Z M15.989,9.953 L15.989,7.984 L17,7.984 L17,6.984 L15.989,6.984 L15.989,5.953 L14.989,5.953 L14.989,6.984 L14.032,6.984 L14.032,7.984 L14.989,7.984 L14.989,9.953 L15.989,9.953 Z M12.049,11.953 L12.049,9.996 L13,9.996 L13,8.996 L12.049,8.996 L12.049,5.953 L11.049,5.953 L11.049,8.996 L10.032,8.996 L10.032,9.996 L11.049,9.996 L11.049,11.953 L12.049,11.953 Z M8.026,14.953 L8.026,8.91 L9,8.91 L9,7.91 L8.026,7.91 L8.026,5.953 L7.026,5.953 L7.026,7.91 L6.032,7.91 L6.032,8.91 L7.026,8.91 L7.026,14.953 L8.026,14.953 Z M5,15.984 L10,15.984 L10,16.984 L4.5,16.984 C4.224,16.984 4,16.761 4,16.484 L4,4.5 C4,4.224 4.224,4 4.5,4 L18.547,4 C18.824,4 19.047,4.224 19.047,4.5 L19.047,9.953 L18.047,9.953 L18.047,5 L5,5 L5,15.984 Z" id="AWS-Config_Icon_16_Squid" fill="#FFFFFF"></path>
-    </g>
-</svg>
-      <strong>Config</strong>
-    </a> was introduced <strong>7 years ago</strong>
-  </p>
-  <p data-name="Config">
-    <a target="_blank" rel='noopener noreferrer' href="https://aws.amazon.com/about-aws/whats-new/2014/11/12/introducing-aws-config/">
-      <?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
-    <title>Icon-Architecture/16/Arch_AWS-Config_16</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-1">
-            <stop stop-color="#B0084D" offset="0%"></stop>
-            <stop stop-color="#FF4F8B" offset="100%"></stop>
-        </linearGradient>
-    </defs>
-    <g id="Icon-Architecture/16/Arch_AWS-Config_16" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Icon-Architecture-BG/16/Management-Governance" fill="url(#linearGradient-1)">
-            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
-        </g>
-        <path d="M16.059,15.04 C16.011,14.777 15.781,14.592 15.522,14.592 C15.49,14.592 15.457,14.595 15.424,14.601 C15.281,14.627 15.156,14.707 15.073,14.827 C14.99,14.947 14.958,15.092 14.985,15.235 C15.038,15.532 15.323,15.736 15.62,15.675 C15.915,15.622 16.113,15.336 16.059,15.04 L16.059,15.04 Z M17.043,14.862 C17.195,15.701 16.636,16.507 15.798,16.659 C15.705,16.676 15.613,16.684 15.522,16.684 C14.789,16.684 14.136,16.16 14,15.414 C13.926,15.008 14.016,14.597 14.251,14.257 C14.487,13.918 14.84,13.69 15.247,13.617 C16.08,13.466 16.891,14.022 17.043,14.862 L17.043,14.862 Z M18.589,15.77 L18.586,14.473 L17.687,14.37 C17.548,14.354 17.421,14.281 17.339,14.167 L17.001,13.704 C16.919,13.591 16.888,13.449 16.915,13.312 L17.091,12.423 L15.856,12.024 L15.484,12.84 C15.425,12.968 15.315,13.066 15.18,13.109 L14.618,13.288 C14.488,13.33 14.342,13.315 14.222,13.248 L13.444,12.812 L12.683,13.864 L13.346,14.472 C13.449,14.566 13.507,14.698 13.508,14.837 L13.512,15.417 C13.513,15.558 13.455,15.692 13.352,15.788 L12.688,16.403 L13.454,17.451 L14.24,17.006 C14.315,16.963 14.4,16.941 14.486,16.941 C14.538,16.941 14.591,16.949 14.642,16.966 L15.193,17.146 C15.325,17.19 15.432,17.286 15.491,17.412 L15.869,18.23 L17.102,17.826 L16.924,16.953 C16.897,16.817 16.927,16.676 17.007,16.563 L17.35,16.082 C17.432,15.968 17.558,15.893 17.698,15.876 L18.589,15.77 Z M19.5900039,16.213 C19.591,16.466 19.402,16.68 19.15,16.71 L18.036,16.843 L17.948,16.967 L18.17,18.063 C18.22,18.312 18.077,18.559 17.835,18.638 L15.757,19.319 C15.706,19.336 15.654,19.344 15.602,19.344 C15.412,19.344 15.232,19.235 15.148,19.054 L14.674,18.029 L14.539,17.985 L13.558,18.54 C13.339,18.665 13.058,18.605 12.909,18.4 L11.619,16.634 C11.468,16.429 11.496,16.144 11.682,15.972 L12.51,15.204 L12.51,15.061 L11.679,14.3 C11.492,14.128 11.463,13.844 11.612,13.638 L12.894,11.866 C13.044,11.66 13.322,11.6 13.543,11.723 L14.521,12.269 L14.666,12.223 L15.131,11.204 C15.236,10.973 15.496,10.854 15.74,10.936 L17.821,11.608 C18.062,11.686 18.207,11.932 18.158,12.18 L17.939,13.291 L18.019,13.402 L19.142,13.53 C19.394,13.558 19.584,13.771 19.585,14.025 L19.5900039,16.213 Z M15.989,9.953 L15.989,7.984 L17,7.984 L17,6.984 L15.989,6.984 L15.989,5.953 L14.989,5.953 L14.989,6.984 L14.032,6.984 L14.032,7.984 L14.989,7.984 L14.989,9.953 L15.989,9.953 Z M12.049,11.953 L12.049,9.996 L13,9.996 L13,8.996 L12.049,8.996 L12.049,5.953 L11.049,5.953 L11.049,8.996 L10.032,8.996 L10.032,9.996 L11.049,9.996 L11.049,11.953 L12.049,11.953 Z M8.026,14.953 L8.026,8.91 L9,8.91 L9,7.91 L8.026,7.91 L8.026,5.953 L7.026,5.953 L7.026,7.91 L6.032,7.91 L6.032,8.91 L7.026,8.91 L7.026,14.953 L8.026,14.953 Z M5,15.984 L10,15.984 L10,16.984 L4.5,16.984 C4.224,16.984 4,16.761 4,16.484 L4,4.5 C4,4.224 4.224,4 4.5,4 L18.547,4 C18.824,4 19.047,4.224 19.047,4.5 L19.047,9.953 L18.047,9.953 L18.047,5 L5,5 L5,15.984 Z" id="AWS-Config_Icon_16_Squid" fill="#FFFFFF"></path>
-    </g>
-</svg>
-      <strong>Config</strong>
-    </a> was introduced <strong>7 years ago</strong>
-  </p>
-  <p data-name="Config">
-    <a target="_blank" rel='noopener noreferrer' href="https://aws.amazon.com/about-aws/whats-new/2014/11/12/introducing-aws-config/">
-      <?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
-    <title>Icon-Architecture/16/Arch_AWS-Config_16</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-1">
-            <stop stop-color="#B0084D" offset="0%"></stop>
-            <stop stop-color="#FF4F8B" offset="100%"></stop>
-        </linearGradient>
-    </defs>
-    <g id="Icon-Architecture/16/Arch_AWS-Config_16" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Icon-Architecture-BG/16/Management-Governance" fill="url(#linearGradient-1)">
-            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
-        </g>
-        <path d="M16.059,15.04 C16.011,14.777 15.781,14.592 15.522,14.592 C15.49,14.592 15.457,14.595 15.424,14.601 C15.281,14.627 15.156,14.707 15.073,14.827 C14.99,14.947 14.958,15.092 14.985,15.235 C15.038,15.532 15.323,15.736 15.62,15.675 C15.915,15.622 16.113,15.336 16.059,15.04 L16.059,15.04 Z M17.043,14.862 C17.195,15.701 16.636,16.507 15.798,16.659 C15.705,16.676 15.613,16.684 15.522,16.684 C14.789,16.684 14.136,16.16 14,15.414 C13.926,15.008 14.016,14.597 14.251,14.257 C14.487,13.918 14.84,13.69 15.247,13.617 C16.08,13.466 16.891,14.022 17.043,14.862 L17.043,14.862 Z M18.589,15.77 L18.586,14.473 L17.687,14.37 C17.548,14.354 17.421,14.281 17.339,14.167 L17.001,13.704 C16.919,13.591 16.888,13.449 16.915,13.312 L17.091,12.423 L15.856,12.024 L15.484,12.84 C15.425,12.968 15.315,13.066 15.18,13.109 L14.618,13.288 C14.488,13.33 14.342,13.315 14.222,13.248 L13.444,12.812 L12.683,13.864 L13.346,14.472 C13.449,14.566 13.507,14.698 13.508,14.837 L13.512,15.417 C13.513,15.558 13.455,15.692 13.352,15.788 L12.688,16.403 L13.454,17.451 L14.24,17.006 C14.315,16.963 14.4,16.941 14.486,16.941 C14.538,16.941 14.591,16.949 14.642,16.966 L15.193,17.146 C15.325,17.19 15.432,17.286 15.491,17.412 L15.869,18.23 L17.102,17.826 L16.924,16.953 C16.897,16.817 16.927,16.676 17.007,16.563 L17.35,16.082 C17.432,15.968 17.558,15.893 17.698,15.876 L18.589,15.77 Z M19.5900039,16.213 C19.591,16.466 19.402,16.68 19.15,16.71 L18.036,16.843 L17.948,16.967 L18.17,18.063 C18.22,18.312 18.077,18.559 17.835,18.638 L15.757,19.319 C15.706,19.336 15.654,19.344 15.602,19.344 C15.412,19.344 15.232,19.235 15.148,19.054 L14.674,18.029 L14.539,17.985 L13.558,18.54 C13.339,18.665 13.058,18.605 12.909,18.4 L11.619,16.634 C11.468,16.429 11.496,16.144 11.682,15.972 L12.51,15.204 L12.51,15.061 L11.679,14.3 C11.492,14.128 11.463,13.844 11.612,13.638 L12.894,11.866 C13.044,11.66 13.322,11.6 13.543,11.723 L14.521,12.269 L14.666,12.223 L15.131,11.204 C15.236,10.973 15.496,10.854 15.74,10.936 L17.821,11.608 C18.062,11.686 18.207,11.932 18.158,12.18 L17.939,13.291 L18.019,13.402 L19.142,13.53 C19.394,13.558 19.584,13.771 19.585,14.025 L19.5900039,16.213 Z M15.989,9.953 L15.989,7.984 L17,7.984 L17,6.984 L15.989,6.984 L15.989,5.953 L14.989,5.953 L14.989,6.984 L14.032,6.984 L14.032,7.984 L14.989,7.984 L14.989,9.953 L15.989,9.953 Z M12.049,11.953 L12.049,9.996 L13,9.996 L13,8.996 L12.049,8.996 L12.049,5.953 L11.049,5.953 L11.049,8.996 L10.032,8.996 L10.032,9.996 L11.049,9.996 L11.049,11.953 L12.049,11.953 Z M8.026,14.953 L8.026,8.91 L9,8.91 L9,7.91 L8.026,7.91 L8.026,5.953 L7.026,5.953 L7.026,7.91 L6.032,7.91 L6.032,8.91 L7.026,8.91 L7.026,14.953 L8.026,14.953 Z M5,15.984 L10,15.984 L10,16.984 L4.5,16.984 C4.224,16.984 4,16.761 4,16.484 L4,4.5 C4,4.224 4.224,4 4.5,4 L18.547,4 C18.824,4 19.047,4.224 19.047,4.5 L19.047,9.953 L18.047,9.953 L18.047,5 L5,5 L5,15.984 Z" id="AWS-Config_Icon_16_Squid" fill="#FFFFFF"></path>
-    </g>
-</svg>
-      <strong>Config</strong>
-    </a> was introduced <strong>7 years ago</strong>
   </p>
   <p data-name="Config">
     <a target="_blank" rel='noopener noreferrer' href="https://aws.amazon.com/about-aws/whats-new/2014/11/12/introducing-aws-config/">
@@ -1401,6 +1466,29 @@
 </svg>
       <strong>Data Exchange</strong>
     </a> was introduced <strong>2 years ago</strong>
+  </p>
+  <p data-name="Data Pipeline">
+    <a target="_blank" rel='noopener noreferrer' href="https://aws.amazon.com/blogs/aws/the-new-amazon-data-pipeline/">
+      <?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon-Architecture/16/Arch_ Amazon-API-Gateway_16</title>
+    <defs>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#B0084D" offset="0%"></stop>
+            <stop stop-color="#FF4F8B" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Icon-Architecture/16/Arch_-Amazon-API-Gateway_16" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rectangle" fill="url(#linearGradient-1)">
+            <rect x="0" y="0" width="24" height="24"></rect>
+        </g>
+        <g id="Icon-Service/16/Amazon-API-Gateway_16" transform="translate(4.000000, 4.000000)" fill="#FFFFFF">
+            <path d="M2,2.76751613 L4,1.43446738 L4,14.5659476 L2,13.2328988 L2,2.76751613 Z M1,2.49950633 L1,13.4999086 C1,13.6669147 1.084,13.8239204 1.223,13.9159238 L4.223,15.9159969 C4.307,15.971999 4.403,16 4.5,16 C4.581,16 4.662,15.9809993 4.736,15.9409978 C4.898,15.8539947 5,15.6849885 5,15.4999817 L5,12.9998903 L6,12.9998903 L6,11.9998537 L5,11.9998537 L5,3.99956118 L6,3.99956118 L6,2.99952461 L5,2.99952461 L5,0.499433192 C5,0.315426463 4.898,0.145420247 4.736,0.059417102 C4.574,-0.0275860794 4.377,-0.0185857503 4.223,0.0834179797 L1.223,2.08349112 C1.084,2.17649452 1,2.33250022 1,2.49950633 L1,2.49950633 Z M15,13.2328988 L13,14.5659476 L13,1.43446738 L15,2.76751613 L15,13.2328988 Z M15.777,2.08349112 L12.777,0.0834179797 C12.623,-0.0185857503 12.426,-0.0275860794 12.264,0.059417102 C12.102,0.145420247 12,0.315426463 12,0.499433192 L12,2.99952461 L11,2.99952461 L11,3.99956118 L12,3.99956118 L12,11.9998537 L11,11.9998537 L11,12.9998903 L12,12.9998903 L12,15.4999817 C12,15.6849885 12.102,15.8539947 12.264,15.9409978 C12.338,15.9809993 12.419,16 12.5,16 C12.597,16 12.693,15.971999 12.777,15.9159969 L15.777,13.9159238 C15.916,13.8239204 16,13.6669147 16,13.4999086 L16,2.49950633 C16,2.33250022 15.916,2.17649452 15.777,2.08349112 L15.777,2.08349112 Z M9,3.99956118 L10,3.99956118 L10,2.99952461 L9,2.99952461 L9,3.99956118 Z M7,3.99956118 L8,3.99956118 L8,2.99952461 L7,2.99952461 L7,3.99956118 Z M9,12.9998903 L10,12.9998903 L10,11.9998537 L9,11.9998537 L9,12.9998903 Z M7,12.9998903 L8,12.9998903 L8,11.9998537 L7,11.9998537 L7,12.9998903 Z M9.18,10.884813 L6.18,8.38472153 C6.065,8.28871802 6,8.1487129 6,7.99970745 C6,7.85170204 6.065,7.71069689 6.18,7.61569341 L9.18,5.11560199 L9.82,5.88463011 L7.281,7.99970745 L9.82,10.1157848 L9.18,10.884813 Z" id="Amazon-API-Gateway_Icon_16_Squid"></path>
+        </g>
+    </g>
+</svg>
+      <strong>Data Pipeline</strong>
+    </a> was introduced <strong>9 years ago</strong>
   </p>
   <p data-name="DataSync">
     <a target="_blank" rel='noopener noreferrer' href="https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-aws-datasync-for-accelerated-online-data-transfer/">
@@ -1958,6 +2046,167 @@
       <strong>ElasticCache</strong>
     </a> was introduced <strong>10 years ago</strong>
   </p>
+  <p data-name="Elemental Link">
+    <a target="_blank" rel='noopener noreferrer' href="https://aws.amazon.com/about-aws/whats-new/2020/04/introducing-aws-elemental-link-a-device-to-send-live-video-to-aws/">
+      <?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon-Architecture/16/Arch_AWS-Elemental-Link_16</title>
+    <defs>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#C8511B" offset="0%"></stop>
+            <stop stop-color="#FF9900" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Icon-Architecture/16/Arch_AWS-Elemental-Link_16" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rectangle" fill="url(#linearGradient-1)">
+            <rect x="0" y="0" width="24" height="24"></rect>
+        </g>
+        <g id="Icon-Service/16/AWS-Elemental-Link_16" transform="translate(4.000000, 4.000000)" fill="#FFFFFF">
+            <path d="M6.2197,1.929 L5.7807,1.031 L7.7807,0.051 C7.9187,-0.017 8.0807,-0.017 8.2197,0.051 L10.2197,1.031 L9.7807,1.929 L7.9997,1.056 L6.2197,1.929 Z M8.9997,12.175 L7.4997,12.992 L5.9997,12.175 L5.9997,11.5 L5.9997,10.589 L7.4997,9.771 L8.9997,10.589 L8.9997,12.175 Z M9.9997,10.292 C9.9997,10.109 9.9007,9.94 9.7397,9.853 L7.7397,8.763 C7.5907,8.682 7.4087,8.682 7.2607,8.763 L5.2607,9.853 C5.0997,9.94 4.9997,10.109 4.9997,10.292 L4.9997,10.5 L-0.0003,10.5 L-0.0003,11.5 L4.9997,11.5 L4.9997,12.471 C4.9997,12.655 5.0997,12.823 5.2607,12.91 L6.9997,13.858 L6.9997,15.5 L7.9997,15.5 L7.9997,13.858 L9.7397,12.91 C9.9007,12.823 9.9997,12.655 9.9997,12.471 L9.9997,11.5 L15.9997,11.5 L15.9997,10.5 L9.9997,10.5 L9.9997,10.292 Z M10.9997,5.5 L13.9997,5.5 L13.9997,4.5 L10.9997,4.5 L10.9997,5.5 Z M1.9997,5.5 L8.9997,5.5 L8.9997,4.5 L1.9997,4.5 L1.9997,5.5 Z M0.9997,6.5 L14.9997,6.5 L14.9997,3.5 L0.9997,3.5 L0.9997,6.5 Z M15.4997,2.5 L0.4997,2.5 C0.2237,2.5 -0.0003,2.723 -0.0003,3 L-0.0003,7 C-0.0003,7.276 0.2237,7.5 0.4997,7.5 L15.4997,7.5 C15.7767,7.5 15.9997,7.276 15.9997,7 L15.9997,3 C15.9997,2.723 15.7767,2.5 15.4997,2.5 L15.4997,2.5 Z" id="AWS-Elemental-Link_Icon_16_Squid"></path>
+        </g>
+    </g>
+</svg>
+      <strong>Elemental Link</strong>
+    </a> was introduced <strong>1 year ago</strong>
+  </p>
+  <p data-name="Elemental MediaConnect">
+    <a target="_blank" rel='noopener noreferrer' href="https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-aws-elemental-mediaconnect/">
+      <?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Icon-Architecture/16/Arch_AWS-Elemental-MediaConnect_16</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#C8511B" offset="0%"></stop>
+            <stop stop-color="#FF9900" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Icon-Architecture/16/Arch_AWS-Elemental-MediaConnect_16" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon-Architecture-BG/16/Media-Services" fill="url(#linearGradient-1)">
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+        </g>
+        <path d="M18.0061759,9.14199616 L16.5333286,8.37258727 L15.0594875,9.14199616 L15.0594875,11.0634883 L16.5333286,11.8227467 L18.0061759,11.0634883 L18.0061759,9.14199616 Z M13.4475048,5.84713962 L11.9746575,5.07773073 L10.5008164,5.84713962 L10.5008164,7.76863174 L11.9746575,8.52789012 L13.4475048,7.76863174 L13.4475048,5.84713962 Z M8.94051253,9.14199616 L7.46766522,8.37258727 L5.99382409,9.14199616 L5.99382409,11.0634883 L7.46766522,11.8227467 L8.94051253,11.0634883 L8.94051253,9.14199616 Z M19,8.83139046 L19,11.3761241 C19,11.5679688 18.8946546,11.7425576 18.7276922,11.828837 L16.756939,12.8438883 C16.6863775,12.8804301 16.6098531,12.8987011 16.5333286,12.8987011 C16.4558103,12.8987011 16.3792859,12.8804301 16.3087244,12.8438883 L14.338965,11.828837 C14.1720026,11.7425576 14.0656634,11.5679688 14.0656634,11.3761241 L14.0656634,9.0161298 L13.8172074,8.71567461 L12.1982679,9.54903174 C12.0571449,9.62211543 11.8921701,9.62211543 11.7500532,9.54903174 L10.147015,8.72277997 L9.93433662,9.00394918 L9.93433662,11.3761241 C9.93433662,11.5679688 9.82799744,11.7425576 9.66202882,11.828837 L7.69127564,12.8438883 C7.55015262,12.9159569 7.384184,12.9159569 7.24306098,12.8438883 L5.2723078,11.828837 C5.10633918,11.7425576 5,11.5679688 5,11.3761241 L5,8.83139046 C5,8.64056082 5.10534535,8.46597199 5.27131398,8.37969263 L7.24107333,7.3504306 C7.38319018,7.27633186 7.55114645,7.27633186 7.69326329,7.3504306 L9.29530773,8.18784793 L9.50699226,7.90870882 L9.50699226,5.53653392 C9.50699226,5.34570427 9.61233762,5.17111545 9.77830624,5.08483609 L11.7480656,4.05557406 C11.8901824,3.98147531 12.0591325,3.98147531 12.2002556,4.05557406 L14.1710087,5.08483609 C14.3369774,5.17111545 14.4413289,5.34570427 14.4413289,5.53653392 L14.4413289,7.89551316 L14.6877973,8.19596834 L16.3067367,7.3504306 C16.4488536,7.27633186 16.6178036,7.27633186 16.7589267,7.3504306 L18.7296798,8.37969263 C18.8956485,8.46597199 19,8.64056082 19,8.83139046 L19,8.83139046 Z M18.1870519,15.2028675 L14.7881735,13.1849455 L14.2892738,14.0619499 L16.9795556,15.6596406 L11.9746575,18.891564 L6.97075318,15.6596406 L9.66600412,14.0629649 L9.16710442,13.1839305 L5.76226308,15.2018525 C5.61120182,15.291177 5.51877618,15.4535852 5.51472702,15.6312192 C5.51181941,15.8088532 5.59927593,15.9753216 5.74536807,16.0697213 L11.7083126,19.920826 C11.7898062,19.9736087 11.8822318,20 11.9746575,20 C12.0660893,20 12.1585149,19.9736087 12.2400085,19.920826 L18.2029531,16.0697213 C18.350039,15.9753216 18.4374956,15.8088532 18.4345879,15.6322342 C18.4315326,15.4546002 18.3371193,15.292192 18.1870519,15.2028675 L18.1870519,15.2028675 Z M11.4777454,16.0605859 L11.4777454,12.7738497 L10.8049265,13.1849455 L10.2941009,12.3150465 L11.7192447,11.4421024 C11.8762689,11.3456726 12.0720522,11.3456726 12.2300703,11.4421024 L13.6542202,12.3150465 L13.1433946,13.1849455 L12.4715695,12.7738497 L12.4715695,16.0605859 L13.1433946,15.648475 L13.6542202,16.5193891 L12.2300703,17.3913181 C12.1505644,17.4400406 12.0631078,17.4644018 11.9746575,17.4644018 C11.8862071,17.4644018 11.7977568,17.4400406 11.7192447,17.3913181 L10.2941009,16.5193891 L10.8049265,15.648475 L11.4777454,16.0605859 Z" id="AWS-Elemental-MediaConnect_Icon_16_Squid" fill="#FFFFFF"></path>
+    </g>
+</svg>
+      <strong>Elemental MediaConnect</strong>
+    </a> was introduced <strong>3 years ago</strong>
+  </p>
+  <p data-name="Elemental MediaConvert">
+    <a target="_blank" rel='noopener noreferrer' href="https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-aws-elemental-mediaconvert/">
+      <?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Icon-Architecture/16/Arch_AWS-Elemental-MediaConvert_16</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#C8511B" offset="0%"></stop>
+            <stop stop-color="#FF9900" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Icon-Architecture/16/Arch_AWS-Elemental-MediaConvert_16" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon-Architecture-BG/16/Media-Services" fill="url(#linearGradient-1)">
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+        </g>
+        <path d="M11,10.8200811 L11,12.5113814 L12.002,13.0711568 L13,12.5113814 L13,10.8200811 L12.002,10.2243842 L11,10.8200811 Z M11.746,9.21459308 C11.902,9.11980044 12.101,9.11980044 12.259,9.21459308 L13.543,9.98191456 L14.813,9.4700343 L15.187,10.3960087 L14,10.8739632 L14,12.8037418 C14,12.9843467 13.902,13.1509822 13.745,13.2387901 L12.5,13.9362644 L12.5,14.9221079 L11.5,14.9221079 L11.5,13.9342688 L10.256,13.239788 C10.098,13.1509822 10,12.9843467 10,12.8037418 L10,10.8739632 L8.812,10.3960087 L9.188,9.4700343 L10.457,9.98191456 L11.746,9.21459308 Z M15.937,9.65762395 L11.998,7.50732772 L8,9.65961958 L8,13.9272841 L11.998,16.3340193 L15.937,13.9292797 L15.937,9.65762395 Z M19,7.93738697 L19,9.93302152 L18,9.93302152 L18,8.88930465 L16.937,9.62369816 L16.937,14.2086685 C16.937,14.3832866 16.847,14.5439351 16.698,14.6347365 L12.5,17.1981291 L12.5,18.6529467 L13.762,17.952479 L14.248,18.8245713 L12.243,19.9371375 C12.167,19.9790458 12.084,20 12,20 C11.916,20 11.833,19.9790458 11.757,19.9371375 L9.752,18.8245713 L10.238,17.952479 L11.5,18.6529467 L11.5,17.2001247 L7.242,14.6367321 C7.092,14.5459308 7,14.3842844 7,14.2086685 L7,9.61870907 L6,8.90726536 L6,9.93302152 L5,9.93302152 L5,7.93738697 C5,7.7487995 5.107,7.57617711 5.276,7.49136264 L7.281,6.49354537 L7.729,7.38659183 L6.468,8.01322108 L7.537,8.77555348 L11.763,6.50053009 C11.912,6.42070471 12.091,6.42070471 12.24,6.50252572 L16.406,8.77655129 L17.521,8.00823199 L16.271,7.38659183 L16.719,6.49354537 L18.724,7.49136264 C18.893,7.57617711 19,7.7487995 19,7.93738697 L19,7.93738697 Z M18,15.6115996 L16.271,16.4717181 L16.719,17.3647646 L18.724,16.3669473 C18.893,16.2821328 19,16.1095104 19,15.9199252 L19,13.9242906 L18,13.9242906 L18,15.6115996 Z M11.979,5.06966012 L13.741,6.04752105 L14.228,5.17542875 L12.223,4.06286249 C12.07,3.97904584 11.889,3.97904584 11.736,4.06286249 L9.731,5.17542875 L10.218,6.04752105 L11.979,5.06966012 Z M6,15.6115996 L7.729,16.4717181 L7.281,17.3647646 L5.276,16.3669473 C5.107,16.2821328 5,16.1095104 5,15.9199252 L5,13.9242906 L6,13.9242906 L6,15.6115996 Z" id="AWS-Elemental-MediaConvert_Icon_16_Squid" fill="#FFFFFF"></path>
+    </g>
+</svg>
+      <strong>Elemental MediaConvert</strong>
+    </a> was introduced <strong>4 years ago</strong>
+  </p>
+  <p data-name="Elemental MediaLive">
+    <a target="_blank" rel='noopener noreferrer' href="https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-aws-elemental-medialive/">
+      <?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Icon-Architecture/16/Arch_AWS-Elemental-MediaLive_16</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#C8511B" offset="0%"></stop>
+            <stop stop-color="#FF9900" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Icon-Architecture/16/Arch_AWS-Elemental-MediaLive_16" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon-Architecture-BG/16/Media-Services" fill="url(#linearGradient-1)">
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+        </g>
+        <path d="M15.4359864,17.8382186 C15.5719858,18.0807649 15.4859862,18.3867153 15.2459871,18.5235879 L12.745997,19.9355894 C12.6689973,19.9778589 12.5839977,20 12.499998,20 C12.4159984,20 12.3319987,19.9778589 12.254999,19.9355894 L9.7550089,18.5235879 C9.51500985,18.3867153 9.4290102,18.0807649 9.56500966,17.8382186 C9.69900912,17.5956724 10.0010079,17.5091206 10.246007,17.6459932 L12,18.6373129 L12,16.0719587 C12,15.7931815 12.2239991,15.5687508 12.499998,15.5687508 C12.7769969,15.5687508 12.999996,15.7931815 12.999996,16.0719587 L12.999996,18.6373129 L14.7549891,17.6459932 C14.9989881,17.5101271 15.3019869,17.5956724 15.4359864,17.8382186 L15.4359864,17.8382186 Z M17.9999841,15.8022393 L16.9999841,16.4735187 L15.9999841,15.8022393 L15.9999841,14.32784 L16.9999841,13.657567 L17.9999841,14.32784 L17.9999841,15.8022393 Z M17.2779791,12.634042 C17.1099797,12.520317 16.8909806,12.520317 16.7229813,12.634042 L15.2229872,13.6404579 C15.0839878,13.7330482 14.9999881,13.8910555 14.9999881,14.0591269 L14.9999881,16.0719587 C14.9999881,16.2400302 15.0839878,16.3970311 15.2229872,16.4906278 L16.7229813,17.4970437 C16.8069809,17.5534029 16.9039806,17.5815826 16.9999881,17.5815826 C17.0969798,17.5815826 17.1939794,17.5534029 17.2779791,17.4970437 L18.7779731,16.4906278 C18.9159726,16.3970311 18.9999722,16.2400302 18.9999722,16.0719587 L18.9999722,14.0591269 C18.9999722,13.8910555 18.9159726,13.7330482 18.7779731,13.6404579 L17.2779791,12.634042 Z M19,8.31349855 L19,10.5366713 C19,10.8144421 18.7769731,11.0398792 18.4999742,11.0398792 C18.2239753,11.0398792 17.9999762,10.8144421 17.9999762,10.5366713 L17.9999762,9.26254875 L16.283983,10.4481067 C16.0549839,10.6051076 15.7459851,10.5477419 15.5879858,10.3172726 C15.4319864,10.0888162 15.4899862,9.77481444 15.7169853,9.61881998 L17.5269781,8.36885143 L15.771985,7.46106428 C15.525986,7.33425588 15.4289864,7.03132469 15.5559859,6.78374638 C15.6819854,6.53616807 15.9849842,6.44055856 16.2289832,6.56636055 L18.7209733,7.85557932 C18.7909731,7.88979746 18.8539728,7.94213109 18.9039726,8.00956095 L18.9179726,8.0317021 L18.9189726,8.0317021 L18.9189726,8.03270852 C18.9749723,8.11926028 19.0009722,8.21688263 19,8.31349855 L19,8.31349855 Z M8.00002379,15.8022393 L7.00002379,16.4735187 L6.00002379,15.8022393 L6.00002379,14.32784 L7.00002379,13.657567 L8.00002379,14.32784 L8.00002379,15.8022393 Z M7.27801873,12.634042 C7.11001939,12.520317 6.89102026,12.520317 6.72302093,12.634042 L5.22302687,13.6404579 C5.08402743,13.7330482 5.00002776,13.8910555 5.00002776,14.0591269 L5.00002776,16.0719587 C5.00002776,16.2400302 5.08402743,16.3970311 5.22302687,16.4906278 L6.72302093,17.4970437 C6.80702059,17.5534029 6.90402021,17.5815826 7.00002776,17.5815826 C7.09701944,17.5815826 7.19401906,17.5534029 7.27801873,17.4970437 L8.77801278,16.4906278 C8.91601223,16.3970311 9.0000119,16.2400302 9.0000119,16.0719587 L9.0000119,14.0591269 C9.0000119,13.8910555 8.91601223,13.7330482 8.77801278,13.6404579 L7.27801873,12.634042 Z M11.500002,5.77934331 L12.500002,5.10907032 L13.500002,5.77934331 L13.500002,7.25374261 L12.500002,7.9240156 L11.500002,7.25374261 L11.500002,5.77934331 Z M12.2229991,8.94854699 C12.3069988,9.00490628 12.4039984,9.03207951 12.5000059,9.03207951 C12.5969976,9.03207951 12.6939972,9.00490628 12.7779969,8.94854699 L14.277991,7.94213109 C14.4159904,7.84853441 14.4999901,7.69052711 14.4999901,7.52245565 L14.4999901,5.50962385 C14.4999901,5.3415524 14.4159904,5.18455152 14.277991,5.09095484 L12.7779969,4.08453894 C12.6099976,3.97182035 12.3909984,3.97182035 12.2229991,4.08453894 L10.7230051,5.09095484 C10.5840056,5.18455152 10.5000059,5.3415524 10.5000059,5.50962385 L10.5000059,7.52245565 C10.5000059,7.69052711 10.5840056,7.84853441 10.7230051,7.94213109 L12.2229991,8.94854699 Z M5,10.5366713 L5,8.31953705 C4.99902776,8.22292112 5.02502766,8.1263052 5.08102744,8.03975343 C5.08102744,8.03975343 5.08102744,8.03874701 5.08202743,8.03874701 C5.08602742,8.03069568 5.0910274,8.02365077 5.09702737,8.01559945 C5.14602718,7.94816958 5.20902693,7.89583595 5.27902665,7.8606114 L7.77101677,6.56636055 C8.0160158,6.44156498 8.3190146,6.53616807 8.4450141,6.78273997 C8.57201359,7.03031828 8.47501398,7.33324947 8.23001495,7.46106428 L6.47402191,8.37287709 L8.28301474,9.61781356 C8.51001384,9.77481444 8.56901361,10.0878098 8.41401422,10.3172726 C8.25601485,10.5467354 7.94501608,10.6051076 7.71801698,10.4481067 L6.00002379,9.26657441 L6.00002379,10.5366713 C6.00002379,10.8144421 5.77702468,11.0398792 5.50002578,11.0398792 C5.22402687,11.0398792 5,10.8144421 5,10.5366713 L5,10.5366713 Z M11.000004,10.594037 L13.6949933,12.0462951 L11.000004,13.4985533 L11.000004,10.594037 Z M10.5000079,14.8411121 C10.5820056,14.8411121 10.6630053,14.8219902 10.737005,14.7817336 L14.9909881,12.4901245 C15.1529875,12.4025664 15.2539871,12.2314757 15.2539871,12.0462951 C15.2539871,11.8601082 15.1529875,11.6900239 14.9909881,11.6024657 L10.737005,9.3098503 C10.5820056,9.22631778 10.3950064,9.23235627 10.244007,9.32192729 C10.0930076,9.41250472 10.0000079,9.57655051 10.0000079,9.75367971 L10.0000079,14.3379041 C10.0000079,14.5150333 10.0930076,14.6790791 10.244007,14.770663 C10.3230067,14.8179645 10.4120063,14.8411121 10.5000079,14.8411121 L10.5000079,14.8411121 Z" id="AWS-Elemental-MediaLive_Icon_16_Squid" fill="#FFFFFF"></path>
+    </g>
+</svg>
+      <strong>Elemental MediaLive</strong>
+    </a> was introduced <strong>4 years ago</strong>
+  </p>
+  <p data-name="Elemental MediaPackage">
+    <a target="_blank" rel='noopener noreferrer' href="https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-aws-elemental-mediapackage/">
+      <?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Icon-Architecture/16/Arch_AWS-Elemental-MediaPackage_16</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#C8511B" offset="0%"></stop>
+            <stop stop-color="#FF9900" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Icon-Architecture/16/Arch_AWS-Elemental-MediaPackage_16" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon-Architecture-BG/16/Media-Services" fill="url(#linearGradient-1)">
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+        </g>
+        <path d="M14.996,13.1338691 L14.996,10.4036597 C14.996,10.2161646 14.892,10.0437092 14.725,9.95848412 L12.223,8.67208723 C12.078,8.59889395 11.908,8.59889395 11.766,8.67208723 L9.271,9.95848412 C9.104,10.0437092 9,10.2161646 9,10.4036597 L9,13.1338691 L6,14.8463913 L6,8.76032022 L7.731,9.86724319 L8.268,9.02201125 L6.503,7.89403268 L11.491,5.32224154 L11.491,6.98663659 L12.491,6.98663659 L12.491,5.3212389 L17.495,7.89403268 L15.723,9.02602184 L16.26,9.87225643 L18,8.76032022 L18,14.8463913 L14.996,13.1338691 Z M10,13.1368771 L10,10.7104698 L11.994,9.68175338 L13.996,10.7104698 L13.996,13.1368771 L11.994,14.3019536 L10,13.1368771 Z M11.491,16.0104651 L11.491,18.6273754 L6.502,15.7126788 L9.497,14.0041673 L11.742,15.3156303 C11.82,15.3607495 11.907,15.3838104 11.994,15.3838104 C12.081,15.3838104 12.168,15.3607495 12.245,15.3156303 L14.498,14.0031646 L17.497,15.7126788 L12.491,18.6273754 L12.491,16.0104651 L11.491,16.0104651 Z M18.728,7.40073005 L12.22,4.05489496 C12.075,3.98170168 11.905,3.98170168 11.763,4.05489496 L5.271,7.40073005 C5.104,7.48695775 5,7.65941314 5,7.84690824 L5,15.7076656 C5,15.8861368 5.095,16.0515737 5.248,16.141812 L11.739,19.93182 C11.817,19.9779418 11.904,20 11.991,20 C12.078,20 12.165,19.9779418 12.242,19.93182 L18.751,16.141812 C18.905,16.0515737 19,15.8871395 19,15.7076656 L19,7.84690824 C19,7.65941314 18.895,7.48695775 18.728,7.40073005 L18.728,7.40073005 Z" id="AWS-Elemental-MediaPackage_Icon_16_Squid" fill="#FFFFFF"></path>
+    </g>
+</svg>
+      <strong>Elemental MediaPackage</strong>
+    </a> was introduced <strong>4 years ago</strong>
+  </p>
+  <p data-name="Elemental MediaStore">
+    <a target="_blank" rel='noopener noreferrer' href="https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-aws-elemental-mediastore/">
+      <?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Icon-Architecture/16/Arch_AWS-Elemental-MediaStore_16</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#C8511B" offset="0%"></stop>
+            <stop stop-color="#FF9900" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Icon-Architecture/16/Arch_AWS-Elemental-MediaStore_16" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon-Architecture-BG/16/Media-Services" fill="url(#linearGradient-1)">
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+        </g>
+        <path d="M8.97942827,15.4746616 L7.97755811,16.0000942 L6.97568795,15.4746616 L6.97568795,14.0818641 L7.97755811,13.5804971 L8.97942827,14.0818641 L8.97942827,15.4746616 Z M9.98129842,15.7774872 L9.98129842,13.7720193 C9.98129842,13.5825026 9.87409832,13.4090296 9.70478226,13.3237972 L8.20197702,12.5717467 C8.06071333,12.5015553 7.89440289,12.5015553 7.75313919,12.5717467 L6.25033396,13.3237972 C6.0810179,13.4090296 5.97381779,13.5825026 5.97381779,13.7720193 L5.97381779,15.7774872 C5.97381779,15.9639957 6.07801229,16.1354633 6.242319,16.2216984 L7.74512423,17.0098473 C7.81826075,17.0479512 7.8974085,17.0670031 7.97755811,17.0670031 C8.05770772,17.0670031 8.13685546,17.0479512 8.20999199,17.0098473 L9.71279722,16.2216984 C9.87710393,16.1354633 9.98129842,15.9639957 9.98129842,15.7774872 L9.98129842,15.7774872 Z M16.9943895,16.6709232 L16.9943895,13.8321833 L18.9981298,12.8284466 L18.9981298,15.6631756 L16.9943895,16.6709232 Z M12.9869089,15.9208782 L15.4645338,17.4400202 L12.9869089,18.6864185 L12.9869089,15.9208782 Z M9.98129842,9.72097402 L9.98129842,6.79700175 L15.9925194,9.92352628 L15.9925194,16.588699 L12.9869089,14.7436685 L12.9869089,11.5569799 C12.9869089,11.3674632 12.8817125,11.194993 12.7133983,11.1097606 L9.98129842,9.72097402 Z M8.97942827,6.82106736 L8.97942827,9.21158516 L6.61301095,8.00830439 L8.97942827,6.82106736 Z M12.4859738,5.06227197 L14.7481966,6.19235316 L13.0810847,7.27931679 L10.6194897,5.99782277 L12.4859738,5.06227197 Z M16.489447,9.05215046 L14.1019904,7.80976306 L15.787136,6.71176936 L18.4100321,8.02133993 L16.489447,9.05215046 Z M18.9981298,11.7063873 L16.9943895,12.7111267 L16.9943895,9.91851261 L18.9981298,8.84358179 L18.9981298,11.7063873 Z M19.7234838,7.5570741 L12.7103927,4.05251886 C12.5681272,3.98232748 12.4018167,3.98232748 12.2615549,4.05352159 L5.27751803,7.5570741 C5.10820198,7.64230649 5.00100187,7.81477673 5,8.00429345 C5,8.00429345 5.00100187,8.00529619 5.00100187,8.00529619 L5,8.00529619 L5,12.0162321 L6.00187016,12.0162321 L6.00187016,8.82252438 L11.9850387,11.8638165 L11.9850387,18.609208 L10.2828613,17.5773947 L9.7638926,18.4347323 L12.2214801,19.924795 L12.222482,19.9257977 C12.222482,19.9257977 12.2234838,19.9257977 12.2234838,19.9257977 L12.2264894,19.9278032 L12.2274913,19.9268004 C12.3056372,19.9749317 12.3958055,20 12.4859738,20 C12.5631178,20 12.63926,19.9829535 12.7113946,19.9468551 L19.7244857,16.4212424 C19.8938018,16.3360101 20,16.1625371 20,15.9730204 L20,8.00529619 C20,7.81577947 19.8927999,7.64130376 19.7234838,7.5570741 L19.7234838,7.5570741 Z" id="AWS-Elemental-MediaStore_Icon_16_Squid" fill="#FFFFFF"></path>
+    </g>
+</svg>
+      <strong>Elemental MediaStore</strong>
+    </a> was introduced <strong>4 years ago</strong>
+  </p>
+  <p data-name="Elemental MediaTailor">
+    <a target="_blank" rel='noopener noreferrer' href="https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-aws-elemental-mediatailor/">
+      <?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Icon-Architecture/16/Arch_AWS-Elemental-MediaTailor_16</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#C8511B" offset="0%"></stop>
+            <stop stop-color="#FF9900" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Icon-Architecture/16/Arch_AWS-Elemental-MediaTailor_16" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon-Architecture-BG/16/Media-Services" fill="url(#linearGradient-1)">
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+        </g>
+        <path d="M6.00207095,11.0091472 L5,11.0091472 L5,8.94125107 C5,8.76443097 5.09419467,8.60059765 5.24650945,8.51068912 L8.51426281,6.5946385 L9.02331485,7.4557624 L6.00207095,9.2269604 L6.00207095,11.0091472 Z M20,11.0091472 L18.9979291,11.0091472 L18.9979291,9.24594109 L15.5237491,7.46974817 L15.9816955,6.58065273 L19.7274367,8.49670335 C19.8947826,8.58261595 20,8.75444113 20,8.94125107 L20,11.0091472 Z M10.1306032,19.6843212 L5.24650945,16.8192361 C5.09419467,16.7293276 5,16.5654942 5,16.3886741 L5,14.0060981 L6.00207095,14.0060981 L6.00207095,16.1029648 L10.6396553,18.8221983 L10.1306032,19.6843212 Z M14.3904068,19.693312 L13.9164273,18.8132074 L18.9979291,16.089978 L18.9979291,14.0060981 L20,14.0060981 L20,16.3886741 C20,16.5724871 19.8977888,16.7413154 19.7354533,16.8282269 L14.3904068,19.693312 Z M11.0124257,9.0191718 L12.5105217,9.94922557 L13.9494956,9.0251657 L13.9494956,6.78244742 L12.5115238,6.05618631 L11.0124257,6.78644336 L11.0124257,9.0191718 Z M8.53430423,11.4257234 L12.5165342,13.0131084 L16.4626896,11.4417071 L14.0917897,10.1220497 L13.0165676,10.8133464 L13.0165676,11.9771624 L12.0144966,11.9771624 L12.0144966,10.8183413 L10.8029929,10.0671056 L8.53430423,11.4257234 Z M8.49021311,14.4166804 L12.5155321,16.4436182 L16.5278242,14.4246723 L14.4224731,13.3297862 L13.0165676,13.890216 L13.0165676,14.9701174 L12.0144966,14.9701174 L12.0144966,13.8892171 L10.5444585,13.3028137 L8.49021311,14.4166804 Z M13.0165676,20 L12.0144966,20 L12.0144966,17.310736 L7.18551673,14.8782109 C7.01917296,14.7942962 6.91295344,14.625468 6.90988206,14.439657 C6.90694101,14.2548451 7.00815018,14.0820209 7.17148774,13.9931114 L9.33495892,12.8213035 L7.22559957,11.9801593 C7.04823301,11.9092315 6.92698243,11.7453982 6.91195137,11.5565903 C6.8969203,11.3677823 6.9901129,11.1859673 7.15244839,11.0880669 L10.0163672,9.37281201 C10.0123589,9.34783742 10.0103547,9.32286283 10.0103547,9.29688925 L10.0103547,6.47476046 C10.0103547,6.28395459 10.1195805,6.11013143 10.2909346,6.02621681 L12.2950765,5.05020979 C12.4363685,4.9822789 12.6007081,4.98327788 12.7420001,5.05320674 L14.6759971,6.02921376 C14.844345,6.11412737 14.9515666,6.28595255 14.9515666,6.47476046 L14.9515666,9.29688925 C14.9515666,9.34683843 14.94355,9.39678762 14.9285189,9.44373985 L17.8705992,11.0800751 C18.0389472,11.1739795 18.1381522,11.3567935 18.1261273,11.5485984 C18.1131004,11.7404032 17.9908478,11.9082325 17.8114771,11.9801593 L15.6490079,12.8412832 L17.8575723,13.9891154 C18.0239161,14.076027 18.1281315,14.2488512 18.1271366,14.4356611 C18.1261273,14.62347 18.0189057,14.7942962 17.8515599,14.8782109 L13.0165676,17.310736 L13.0165676,20 Z" id="AWS-Elemental-MediaTailor_Icon_16_Squid" fill="#FFFFFF"></path>
+    </g>
+</svg>
+      <strong>Elemental MediaTailor</strong>
+    </a> was introduced <strong>4 years ago</strong>
+  </p>
   <p data-name="EventBridge">
     <a target="_blank" rel='noopener noreferrer' href="https://aws.amazon.com/about-aws/whats-new/2019/07/introducing-amazon-eventbridge/">
       <?xml version="1.0" encoding="UTF-8"?>
@@ -2282,6 +2531,29 @@
       <strong>Honeycode</strong>
     </a> was introduced <strong>1 year ago</strong>
   </p>
+  <p data-name="IQ">
+    <a target="_blank" rel='noopener noreferrer' href="https://aws.amazon.com/blogs/aws/aws-iq-get-help-from-aws-certified-third-party-experts-on-demand/">
+      <?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon-Architecture/16/Arch_AWS-IQ_16</title>
+    <defs>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#2E27AD" offset="0%"></stop>
+            <stop stop-color="#527FFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Icon-Architecture/16/Arch_AWS-IQ_16" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rectangle" fill="url(#linearGradient-1)">
+            <rect x="0" y="0" width="24" height="24"></rect>
+        </g>
+        <g id="Icon-Service/16/AWS-IQ_16" transform="translate(4.000000, 4.000000)" fill="#FFFFFF">
+            <path d="M4,11.293 L6.146,9.147 L6.854,9.854 L4.354,12.354 C4.26,12.447 4.133,12.5 4,12.5 C3.867,12.5 3.74,12.447 3.646,12.354 L2.163,10.87 L2.87,10.163 L4,11.293 Z M9,12 L9,8.5 C9,8.311 8.893,8.138 8.724,8.053 L8.101,7.741 C8.816,7.257 9.609,7 10.466,7 C11.264,7 12.066,7.217 12.726,7.612 C13.999,8.374 14.856,10.063 14.983,12 L9,12 Z M8,13.191 L4.5,14.941 L1,13.191 L1,8.809 L4.5,7.059 L8,8.809 L8,13.191 Z M8,3.5 C8,2.122 9.121,1 10.5,1 C11.879,1 13,2.122 13,3.5 C13,4.878 11.879,6 10.5,6 C9.121,6 8,4.878 8,3.5 L8,3.5 Z M16,12.5 C16,10.013 14.916,7.757 13.239,6.754 C12.998,6.61 12.739,6.492 12.473,6.387 C13.394,5.756 14,4.698 14,3.5 C14,1.57 12.43,0 10.5,0 C8.57,0 7,1.57 7,3.5 C7,4.7 7.608,5.76 8.532,6.391 C8.102,6.565 7.684,6.783 7.296,7.074 L7.094,7.238 L4.724,6.053 C4.583,5.982 4.417,5.982 4.276,6.053 L0.276,8.053 C0.107,8.138 0,8.311 0,8.5 L0,13.5 C0,13.689 0.107,13.862 0.276,13.947 L4.276,15.947 C4.347,15.982 4.424,16 4.5,16 C4.576,16 4.653,15.982 4.724,15.947 L8.724,13.947 C8.893,13.862 9,13.689 9,13.5 L9,13 L16,13 L16,12.5 Z" id="AWS-IQ_16_Squid"></path>
+        </g>
+    </g>
+</svg>
+      <strong>IQ</strong>
+    </a> was introduced <strong>2 years ago</strong>
+  </p>
   <p data-name="Identity and Access Management (IAM)">
     <a target="_blank" rel='noopener noreferrer' href="https://aws.amazon.com/blogs/aws/iam-identity-access-management/">
       <?xml version="1.0" encoding="UTF-8"?>
@@ -2304,6 +2576,29 @@
 </svg>
       <strong>Identity and Access Management (IAM)</strong>
     </a> was introduced <strong>10 years ago</strong>
+  </p>
+  <p data-name="Inspector">
+    <a target="_blank" rel='noopener noreferrer' href="https://aws.amazon.com/about-aws/whats-new/2021/11/amazon-inspector-continual-vulnerability-management/">
+      <?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Icon-Architecture/16/Arch_Amazon-Inspector_16</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#BD0816" offset="0%"></stop>
+            <stop stop-color="#FF5252" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Icon-Architecture/16/Arch_Amazon-Inspector_16" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon-Architecture-BG/16/Security-Identity-Compliance" fill="url(#linearGradient-1)">
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+        </g>
+        <path d="M18.8023049,18.7652192 C18.5520268,19.0381494 18.1232718,19.0614854 17.8442733,18.8149351 L14.4911631,15.822849 C14.8265767,15.5225244 15.1291669,15.1897321 15.3927794,14.825487 L18.7520441,17.8185877 C19.0289911,18.0661526 19.0505314,18.4912744 18.8023049,18.7652192 M10.7769959,9.12642045 C10.332855,9.12642045 9.97179813,8.76826299 9.97179813,8.3299513 C9.97179813,7.890625 10.332855,7.53348214 10.7769959,7.53348214 C11.2201111,7.53348214 11.5821937,7.890625 11.5821937,8.3299513 C11.5821937,8.76826299 11.2201111,9.12642045 10.7769959,9.12642045 M10.1174517,11.8222403 C10.924701,11.8222403 11.5821937,12.4715909 11.5821937,13.2700893 C11.5821937,14.0685877 10.924701,14.7179383 10.1174517,14.7179383 C9.3102025,14.7179383 8.65373551,14.0685877 8.65373551,13.2700893 C8.65373551,12.4715909 9.3102025,11.8222403 10.1174517,11.8222403 M5.02572967,11.2175325 C5.02572967,8.34821429 7.38490791,6.01461039 10.2846457,6.01461039 C13.1843835,6.01461039 15.5435617,8.34821429 15.5435617,11.2175325 C15.5435617,11.9287744 15.3979081,12.6065341 15.1342956,13.2254464 L12.5658685,12.8551136 C12.4345751,12.0971997 11.9514564,11.4640828 11.2898608,11.1109984 L11.2898608,10.0588474 C12.0489007,9.83867695 12.6079234,9.1507711 12.6079234,8.3299513 C12.6079234,7.33157468 11.7863139,6.51887175 10.7769959,6.51887175 C9.7666522,6.51887175 8.94606847,7.33157468 8.94606847,8.3299513 C8.94606847,9.1507711 9.50509114,9.83867695 10.2641311,10.0588474 L10.2641311,10.8218344 C10.2148961,10.8198052 10.1677125,10.8076299 10.1174517,10.8076299 C9.39738952,10.8076299 8.75220556,11.117086 8.29780731,11.6030844 L7.7059613,11.0115666 C7.95111069,10.6351461 8.0967643,10.1897321 8.0967643,9.70880682 C8.0967643,8.88291396 7.67724086,8.12195617 6.97461604,7.6755276 L6.41969629,8.52881494 C6.8279367,8.78855519 7.07103463,9.22991071 7.07103463,9.70880682 C7.07103463,10.4829545 6.43405651,11.1130276 5.6524505,11.1130276 L5.6524505,12.127638 C6.14274928,12.127638 6.60022471,11.9805195 6.98282188,11.7329545 L7.7613507,12.5101461 C7.68236951,12.7516234 7.62800584,13.0032468 7.62800584,13.2700893 C7.62800584,14.627638 8.74502545,15.7325487 10.1174517,15.7325487 C11.2796035,15.7325487 12.248918,14.9391234 12.5238136,13.8737825 L14.6029676,14.1730925 C13.6521162,15.5275974 12.0735182,16.4184253 10.2846457,16.4184253 C7.38490791,16.4184253 5.02572967,14.085836 5.02572967,11.2175325 M19.439283,17.0647321 L15.9271846,13.9366883 C16.3343993,13.1138393 16.5692914,12.1925731 16.5692914,11.2175325 C16.5692914,7.78916396 13.7495605,5 10.2846457,5 C6.81973086,5 4,7.78916396 4,11.2175325 C4,14.6448864 6.81973086,17.4340503 10.2846457,17.4340503 C11.5288558,17.4340503 12.6858788,17.0698052 13.6633992,16.4498782 L17.1580602,19.5687906 C17.4832165,19.8579545 17.8904312,20 18.2966201,20 C18.7633271,20 19.2279827,19.8122971 19.564422,19.4439935 C20.1911428,18.7540584 20.1347277,17.6866883 19.439283,17.0647321" id="Amazon-Inspector_Icon_16_Squid" fill="#FFFFFF"></path>
+    </g>
+</svg>
+      <strong>Inspector</strong>
+    </a> was introduced <strong>hardly any time at all! ago</strong>
   </p>
   <p data-name="Interactive Video Service (IVS)">
     <a target="_blank" rel='noopener noreferrer' href="https://press.aboutamazon.com/news-releases/news-release-details/aws-announces-amazon-interactive-video-service-amazon-ivs">
@@ -2742,6 +3037,31 @@
       <strong>Managed Prometheus</strong>
     </a> was introduced <strong>hardly any time at all! ago</strong>
   </p>
+  <p data-name="Managed Services">
+    <a target="_blank" rel='noopener noreferrer' href="https://aws.amazon.com/blogs/apn/introducing-aws-managed-services/">
+      <?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Icon-Architecture/16/Arch_AWS-Managed-Services_16</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#2E27AD" offset="0%"></stop>
+            <stop stop-color="#527FFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Icon-Architecture/16/Arch_AWS-Managed-Services_16" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon-Architecture-BG/16/Customer-Enablement" fill="url(#linearGradient-1)">
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+        </g>
+        <g id="Icon-Service/16/AWS-Managed-Services" transform="translate(4.000000, 4.000000)" fill="#FFFFFF">
+            <path d="M7.979,1 C4.13,1 1,4.131 1,7.979 C1,11.827 4.13,14.958 7.979,14.958 C9.647,14.958 11.254,14.351 12.511,13.278 L11.331,12.988 L11.569,12.017 L13.633,12.523 L13.629,12.538 C13.651,12.543 13.673,12.534 13.695,12.542 C13.887,12.617 14.014,12.802 14.014,13.009 L14.014,14.979 L13.014,14.979 L13.014,14.168 C11.6,15.316 9.82,15.958 7.979,15.958 C3.579,15.958 7.23865412e-13,12.378 7.23865412e-13,7.979 C7.23865412e-13,3.58 3.579,2.69118061e-13 7.979,2.69118061e-13 C12.379,2.69118061e-13 15.958,3.58 15.958,7.979 L14.958,7.979 C14.958,4.131 11.828,1 7.979,1 L7.979,1 Z M7.421,7.41 C7.57,7.255 7.769,7.168 7.983,7.164 L7.999,7.164 C8.207,7.164 8.403,7.243 8.553,7.388 C8.708,7.536 8.794,7.735 8.799,7.949 C8.803,8.163 8.724,8.365 8.576,8.52 C8.268,8.838 7.762,8.847 7.444,8.542 C7.125,8.236 7.116,7.728 7.421,7.41 L7.421,7.41 Z M7.999,9.764 C8.471,9.764 8.944,9.58 9.296,9.213 C9.63,8.866 9.808,8.41 9.798,7.929 C9.79,7.448 9.593,7 9.247,6.667 C8.531,5.979 7.388,6.001 6.701,6.716 C6.012,7.432 6.035,8.574 6.75,9.263 C7.099,9.598 7.548,9.764 7.999,9.764 L7.999,9.764 Z M5.743,6.492 L5.196,5.518 L6.524,4.555 L7.275,5.37 C7.371,5.473 7.526,5.534 7.646,5.531 L8.329,5.527 C8.467,5.526 8.599,5.468 8.693,5.366 L9.439,4.557 L10.766,5.522 L10.221,6.492 C10.153,6.613 10.138,6.757 10.18,6.89 L10.384,7.528 C10.427,7.662 10.525,7.771 10.652,7.831 L11.666,8.296 L11.158,9.856 L10.063,9.637 C9.924,9.61 9.783,9.641 9.669,9.723 L9.126,10.12 C9.014,10.203 8.941,10.328 8.924,10.466 L8.795,11.569 L7.155,11.568 L7.028,10.473 C7.011,10.336 6.939,10.211 6.829,10.129 L6.28,9.722 C6.167,9.639 6.024,9.606 5.884,9.634 L4.798,9.851 L4.292,8.29 L5.309,7.824 C5.436,7.766 5.533,7.657 5.577,7.524 L5.783,6.892 C5.826,6.759 5.812,6.614 5.743,6.492 L5.743,6.492 Z M3.471,7.566 C3.241,7.672 3.125,7.934 3.204,8.175 L3.984,10.583 C4.061,10.824 4.311,10.969 4.557,10.919 L5.863,10.658 L6.059,10.804 L6.212,12.125 C6.242,12.377 6.456,12.567 6.709,12.567 L9.241,12.569 C9.495,12.569 9.708,12.379 9.738,12.127 L9.893,10.799 L10.082,10.661 L11.397,10.924 C11.647,10.974 11.892,10.83 11.971,10.589 L12.754,8.182 C12.833,7.941 12.718,7.679 12.488,7.573 L11.27,7.014 L11.2,6.792 L11.856,5.625 C11.981,5.403 11.919,5.124 11.714,4.975 L9.667,3.486 C9.463,3.337 9.178,3.365 9.006,3.552 L8.105,4.529 L7.861,4.53 L6.958,3.55 C6.786,3.363 6.503,3.336 6.296,3.484 L4.248,4.97 C4.042,5.119 3.981,5.398 4.106,5.62 L4.764,6.791 L4.694,7.006 L3.471,7.566 Z" id="AWS-Managed-Services_Icon_16_Squid"></path>
+        </g>
+    </g>
+</svg>
+      <strong>Managed Services</strong>
+    </a> was introduced <strong>5 years ago</strong>
+  </p>
   <p data-name="Migration Hub">
     <a target="_blank" rel='noopener noreferrer' href="https://aws.amazon.com/about-aws/whats-new/2017/08/introducing-aws-migration-hub/">
       <?xml version="1.0" encoding="UTF-8"?>
@@ -2856,6 +3176,29 @@
 </svg>
       <strong>Nimble Studio</strong>
     </a> was introduced <strong>hardly any time at all! ago</strong>
+  </p>
+  <p data-name="OpenSearch Service (formerly Elasticsearch Service)">
+    <a target="_blank" rel='noopener noreferrer' href="https://aws.amazon.com/about-aws/whats-new/2015/10/introducing-amazon-elasticsearch-service/">
+      <?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Icon-Architecture/16/Arch_Amazon-CloudSearch_16</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#4D27A8" offset="0%"></stop>
+            <stop stop-color="#A166FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Icon-Architecture/16/Arch_Amazon-CloudSearch_16" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon-Architecture-BG/16/Analytics" fill="url(#linearGradient-1)">
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+        </g>
+        <path d="M12.9928997,7.9731611 C13.1792654,7.91095504 13.3757049,7.87784536 13.5771813,7.87784536 L13.5771813,8.88116887 C13.3958526,8.88116887 13.225605,8.93835831 13.0986749,9.04170063 C12.9757743,9.14102966 12.8156005,9.17714931 12.661471,9.14102966 C12.508349,9.10290337 12.3814188,8.9975544 12.3179538,8.85307581 C11.9472372,8.00025083 11.3367636,7.5808616 10.4532895,7.57082837 C9.78237309,7.58989152 9.40863434,7.92600489 9.21723175,8.20492883 C8.95531241,8.58619176 8.92509095,9.00859096 9.00769628,9.23935536 C9.02683653,9.29253151 9.03691036,9.35072427 9.03691036,9.40791371 C9.03691036,9.67379444 8.82737488,9.89653226 8.56142602,9.91057879 C8.01945446,9.9406785 7.62657546,10.0881671 7.39084805,10.3510378 C7.13195086,10.6409983 7.13900253,10.9901549 7.13900253,10.9941682 C7.13094348,11.2901486 7.10575892,11.9503355 8.47882069,12.0195648 C8.49796095,12.0205681 8.51911597,12.0235781 8.54027099,12.0265881 L13.0664386,12.0265881 L13.0664386,13.0299116 L8.52818241,13.0299116 C8.49997571,13.0299116 8.4727764,13.0279049 8.4445697,13.0228883 C6.29280159,12.9044961 6.1124802,11.5730858 6.13262784,11.0042014 C6.1296057,10.975105 6.10442115,10.2787985 6.63934103,9.68282436 C6.96069591,9.32463786 7.40394402,9.08785351 7.96001892,8.97648461 C7.96001892,8.52498903 8.10810409,8.04339374 8.38614154,7.63905437 C8.84450038,6.97184423 9.57585976,6.59158462 10.4462379,6.56750486 C11.5674541,6.58054807 12.4338027,7.06415 12.9928997,7.9731611 M18.7531104,18.7568822 C18.4428368,19.0659058 17.8968357,19.0638992 17.5926063,18.7608955 L13.7031041,14.8007776 C14.1332563,14.4736941 14.5180762,14.0904245 14.8464828,13.6610021 L18.7541178,17.5980435 C19.0734579,17.9181037 19.0724505,18.4378253 18.7531104,18.7568822 M5.00738207,10.0199411 C5.00738207,7.25377814 7.26694006,5.00332351 10.0442924,5.00332351 C12.8216448,5.00332351 15.0812028,7.25377814 15.0812028,10.0199411 C15.0812028,12.786104 12.8216448,15.0365586 10.0442924,15.0365586 C7.26694006,15.0365586 5.00738207,12.786104 5.00738207,10.0199411 M19.4693591,16.8917038 L15.403565,12.7951339 C15.8387541,11.964382 16.0885849,11.0212579 16.0885849,10.0199411 C16.0885849,6.69994356 13.3777197,4 10.0442924,4 C6.71187254,4 4,6.69994356 4,10.0199411 C4,13.3399385 6.71187254,16.0398821 10.0442924,16.0398821 C11.0516745,16.0398821 12.0006284,15.7900546 12.8367555,15.3536088 L16.8763576,19.4662319 C17.2218897,19.8103719 17.6812559,20 18.1708436,20 C18.6594239,20 19.1187901,19.8103719 19.4653296,19.4662319 C20.1765413,18.7578855 20.1785561,17.6020568 19.4693591,16.8917038" id="Amazon-CloudSearch_Icon_16_Squid" fill="#FFFFFF"></path>
+    </g>
+</svg>
+      <strong>OpenSearch Service (formerly Elasticsearch Service)</strong>
+    </a> was introduced <strong>6 years ago</strong>
   </p>
   <p data-name="Personalize">
     <a target="_blank" rel='noopener noreferrer' href="https://aws.amazon.com/blogs/aws/amazon-personalize-is-now-generally-available//">
@@ -3522,6 +3865,29 @@
       <strong>Snowcone</strong>
     </a> was introduced <strong>1 year ago</strong>
   </p>
+  <p data-name="Snowmobile">
+    <a target="_blank" rel='noopener noreferrer' href="https://aws.amazon.com/blogs/aws/aws-snowmobile-move-exabytes-of-data-to-the-cloud-in-weeks/">
+      <?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Icon-Architecture/16/Arch_AWS-Snowmobile_16</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#1B660F" offset="0%"></stop>
+            <stop stop-color="#6CAE3E" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Icon-Architecture/16/Arch_AWS-Snowmobile_16" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon-Architecture-BG/16/Storage" fill="url(#linearGradient-1)">
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+        </g>
+        <path d="M4,12 L6,12 L6,11 L4,11 L4,12 Z M4,10 L6,10 L6,9 L4,9 L4,10 Z M19,13 L16,13 L16,10 L17.779,10 C18.498,10 19,10.685 19,11.667 L19,13 Z M18,14.5 C18,14.776 17.775,15 17.5,15 C17.225,15 17,14.776 17,14.5 C17,14.224 17.225,14 17.5,14 C17.775,14 18,14.224 18,14.5 L18,14.5 Z M13.5,13 L9,13 L8,13 L8,8 L15,8 L15,9 L15,10 L15,13 L13.5,13 Z M14,14.5 C14,14.776 13.775,15 13.5,15 C13.225,15 13,14.776 13,14.5 C13,14.224 13.225,14 13.5,14 C13.775,14 14,14.224 14,14.5 L14,14.5 Z M10,14.5 C10,14.776 9.775,15 9.5,15 C9.225,15 9,14.776 9,14.5 C9,14.224 9.225,14 9.5,14 C9.775,14 10,14.224 10,14.5 L10,14.5 Z M17.779,9 L16,9 L16,7.5 C16,7.224 15.776,7 15.5,7 L7.5,7 C7.224,7 7,7.224 7,7.5 L7,13.5 C7,13.776 7.224,14 7.5,14 L8,14 L8.092,14 C8.036,14.157 8,14.324 8,14.5 C8,15.327 8.673,16 9.5,16 C10.327,16 11,15.327 11,14.5 C11,14.324 10.964,14.157 10.908,14 L12.092,14 C12.036,14.157 12,14.324 12,14.5 C12,15.327 12.673,16 13.5,16 C14.327,16 15,15.327 15,14.5 C15,14.324 14.964,14.157 14.908,14 L15,14 L15.5,14 L16.092,14 C16.036,14.157 16,14.324 16,14.5 C16,15.327 16.673,16 17.5,16 C18.327,16 19,15.327 19,14.5 C19,14.324 18.964,14.157 18.908,14 L19.5,14 C19.776,14 20,13.776 20,13.5 L20,11.667 C20,10.122 19.066,9 17.779,9 L17.779,9 Z" id="Fill-7" fill="#FFFFFF"></path>
+    </g>
+</svg>
+      <strong>Snowmobile</strong>
+    </a> was introduced <strong>5 years ago</strong>
+  </p>
   <p data-name="Step Functions">
     <a target="_blank" rel='noopener noreferrer' href="https://aws.amazon.com/about-aws/whats-new/2016/12/introducing-aws-step-functions/">
       <?xml version="1.0" encoding="UTF-8"?>
@@ -3544,6 +3910,29 @@
 </svg>
       <strong>Step Functions</strong>
     </a> was introduced <strong>5 years ago</strong>
+  </p>
+  <p data-name="Storage Gateway">
+    <a target="_blank" rel='noopener noreferrer' href="https://aws.amazon.com/about-aws/whats-new/2012/01/24/announcing-aws-storage-gateway/">
+      <?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Icon-Architecture/16/Arch_AWS-Storage-Gateway_16</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#1B660F" offset="0%"></stop>
+            <stop stop-color="#6CAE3E" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Icon-Architecture/16/Arch_AWS-Storage-Gateway_16" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon-Architecture-BG/16/Storage" fill="url(#linearGradient-1)">
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+        </g>
+        <path d="M16,11.1407541 C14.963,10.4226531 13.488,9.99859349 12,9.99859349 C10.34,9.99859349 8.964,10.3876482 8,11.125752 L8,18.9998593 L9,18.9998593 L9,12.4989451 C9,12.348924 9.066,12.2079042 9.182,12.1128908 C9.237,12.0668844 10.551,10.9987341 12,10.9987341 C13.365,10.9987341 14.748,12.0578831 14.807,12.1038896 C14.929,12.1989029 15,12.3439233 15,12.4989451 L15,18.9998593 L16,18.9998593 L16,11.1407541 Z M16.806,10.4916628 C16.928,10.585676 17,10.7326967 17,10.8877185 L17,19.4999297 C17,19.7759685 16.776,20 16.5,20 L14.5,20 C14.224,20 14,19.7759685 14,19.4999297 L14,12.7579815 C13.625,12.5069462 12.772,11.9988748 12,11.9988748 C11.231,11.9988748 10.414,12.4579393 10,12.7479801 L10,19.4999297 C10,19.7759685 9.776,20 9.5,20 L7.5,20 C7.224,20 7,19.7759685 7,19.4999297 L7,10.8877185 C7,10.741698 7.063,10.6026784 7.175,10.5076651 C8.326,9.52052626 9.995,8.99845284 12,8.99845284 C13.798,8.99845284 15.594,9.55653132 16.806,10.4916628 L16.806,10.4916628 Z M20,11.0947476 C20,12.7989873 19.292,13.856136 18.057,13.9961557 L17.943,13.0020159 C18.816,12.9030019 19,11.9108624 19,11.0947476 C19,9.97959081 18.316,9.27649194 16.968,9.0074541 C16.745,8.96244777 16.581,8.77442133 16.566,8.54838954 C16.5,7.49224101 15.89,7.11718827 15.388,7.11718827 C15.047,7.11718827 14.729,7.27521049 14.514,7.55024917 C14.401,7.69326929 14.222,7.76527941 14.043,7.73727547 C13.864,7.70927154 13.714,7.58725438 13.65,7.41723047 C13.438,6.84715029 13.118,6.34908025 12.726,5.97802807 C12.232,5.51096238 10.883,4.50782131 8.973,5.27292891 C7.886,5.70899023 7.034,6.95816591 7.034,8.11632878 C7.034,8.24734721 7.043,8.37236479 7.059,8.49738237 C7.062,8.51938546 7.062,8.54038842 7.062,8.56239151 C7.062,8.81042639 6.882,9.01745551 6.646,9.05746113 C6.015,9.21848378 5,9.69155031 5,11.0707443 L5.005,11.2327671 C5.061,12.1969026 5.778,12.9540091 6.015,13.0000156 L6,13.9991561 C5.19,13.9991561 4.09,12.7219765 4.007,11.2857745 C4.003,11.2117641 4,11.1427544 4,11.0707443 C4,9.70655242 4.752,8.65940515 6.035,8.19934045 C6.034,8.17133652 6.034,8.14433272 6.034,8.11632878 C6.034,6.55310894 7.138,4.93188095 8.601,4.34479838 C10.299,3.6637026 12.097,4.00475056 13.412,5.25192596 C13.757,5.57697167 14.057,5.97502765 14.297,6.42309066 C14.622,6.22406267 14.996,6.11704762 15.388,6.11704762 C16.286,6.11704762 17.286,6.74313567 17.521,8.11032794 C19.123,8.54038842 20,9.5905361 20,11.0947476 L20,11.0947476 Z" id="AWS-Storage-Gateway_Icon_16_Squid" fill="#FFFFFF"></path>
+    </g>
+</svg>
+      <strong>Storage Gateway</strong>
+    </a> was introduced <strong>10 years ago</strong>
   </p>
   <p data-name="Sumerian">
     <a target="_blank" rel='noopener noreferrer' href="https://aws.amazon.com/about-aws/whats-new/2018/05/amazon-sumerian-is-generally-available/">
@@ -3731,7 +4120,24 @@
   </p>
   <p data-name="Transit Gateway">
     <a target="_blank" rel='noopener noreferrer' href="https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-aws-transit-gateway/">
-      
+      <?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Icon-Architecture/16/Arch_AWS-Transit-Gateway_16</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#4D27A8" offset="0%"></stop>
+            <stop stop-color="#A166FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Icon-Architecture/16/Arch_AWS-Transit-Gateway_16" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon-Architecture-BG/16/Networking-Content-Delivery" fill="url(#linearGradient-1)">
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+        </g>
+        <path d="M12.927,17.868 C13.03,17.659 13.092,17.427 13.092,17.179 C13.092,16.484 12.638,15.899 12.013,15.688 L12.013,13.668 C12.833,13.478 13.477,12.834 13.668,12.014 L15.688,12.014 C15.899,12.639 16.483,13.093 17.178,13.093 C17.426,13.093 17.658,13.03 17.867,12.928 C17.321,15.385 15.385,17.322 12.927,17.868 M5.159,12.928 C5.368,13.03 5.601,13.093 5.849,13.093 C6.544,13.093 7.129,12.639 7.339,12.014 L9.359,12.014 C9.549,12.834 10.194,13.478 11.013,13.668 L11.013,15.688 C10.388,15.899 9.934,16.484 9.934,17.179 C9.934,17.427 9.996,17.659 10.099,17.868 C7.642,17.321 5.705,15.385 5.159,12.928 M6.428,11.514 C6.428,11.833 6.168,12.093 5.849,12.093 C5.53,12.093 5.27,11.833 5.27,11.514 C5.27,11.195 5.53,10.935 5.849,10.935 C6.168,10.935 6.428,11.195 6.428,11.514 M10.099,5.16 C9.996,5.368 9.934,5.6 9.934,5.849 C9.934,6.544 10.388,7.129 11.013,7.339 L11.013,9.359 C10.194,9.55 9.549,10.194 9.359,11.014 L7.339,11.014 C7.129,10.389 6.544,9.935 5.849,9.935 C5.601,9.935 5.368,9.998 5.159,10.1 C5.706,7.642 7.642,5.706 10.099,5.16 M11.513,5.27 C11.832,5.27 12.092,5.53 12.092,5.849 C12.092,6.168 11.832,6.428 11.513,6.428 C11.194,6.428 10.934,6.168 10.934,5.849 C10.934,5.53 11.194,5.27 11.513,5.27 M11.513,12.73 C10.843,12.73 10.297,12.185 10.297,11.514 C10.297,10.843 10.843,10.297 11.513,10.297 C12.184,10.297 12.73,10.843 12.73,11.514 C12.73,12.185 12.184,12.73 11.513,12.73 M11.513,17.758 C11.194,17.758 10.934,17.498 10.934,17.179 C10.934,16.859 11.194,16.599 11.513,16.599 C11.832,16.599 12.092,16.859 12.092,17.179 C12.092,17.498 11.832,17.758 11.513,17.758 M17.757,11.514 C17.757,11.833 17.497,12.093 17.178,12.093 C16.859,12.093 16.599,11.833 16.599,11.514 C16.599,11.195 16.859,10.935 17.178,10.935 C17.497,10.935 17.757,11.195 17.757,11.514 M17.867,10.1 C17.658,9.998 17.426,9.935 17.178,9.935 C16.483,9.935 15.899,10.389 15.688,11.014 L13.668,11.014 C13.478,10.194 12.833,9.55 12.013,9.359 L12.013,7.339 C12.638,7.129 13.092,6.544 13.092,5.849 C13.092,5.6 13.03,5.368 12.927,5.16 C15.384,5.706 17.321,7.642 17.867,10.1 M11.513,4 C7.37,4 4,7.371 4,11.514 C4,15.657 7.37,19.027 11.513,19.027 C15.656,19.027 19.027,15.657 19.027,11.514 C19.027,7.371 15.656,4 11.513,4" id="AWS-Transit-Gateway_Icon_16_Squid" fill="#FFFFFF"></path>
+    </g>
+</svg>
       <strong>Transit Gateway</strong>
     </a> was introduced <strong>3 years ago</strong>
   </p>
@@ -3849,6 +4255,29 @@
 </svg>
       <strong>Well-Architected Tool</strong>
     </a> was introduced <strong>3 years ago</strong>
+  </p>
+  <p data-name="WorkDocs (formerly Zocalo)">
+    <a target="_blank" rel='noopener noreferrer' href="https://aws.amazon.com/about-aws/whats-new/2014/07/10/introducing-amazon-zocalo/">
+      <?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon-Architecture/16/Arch_Amazon-WorkDocs_16</title>
+    <defs>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#BD0816" offset="0%"></stop>
+            <stop stop-color="#FF5252" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Icon-Architecture/16/Arch_Amazon-WorkDocs_16" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rectangle" fill="url(#linearGradient-1)">
+            <rect x="0" y="0" width="24" height="24"></rect>
+        </g>
+        <g id="Icon-Service/16/Amazon-WorkDocs" transform="translate(4.000000, 4.000000)" fill="#FFFFFF">
+            <path d="M4.51750533,7.96887941 L6.52528548,7.96887941 L6.52528548,6.96498933 L4.51750533,6.96498933 L4.51750533,7.96887941 Z M7.95281717,13.5685782 L8.95670724,13.5685782 L8.95670724,11.5607981 L7.95281717,11.5607981 L7.95281717,13.5685782 Z M7.95281717,7.5452378 L7.95281717,9.55301794 L8.95670724,9.55301794 L8.95670724,7.96887941 L14.9961099,7.96887941 L14.9961099,14.9961099 L1.00389007,14.9961099 L1.00389007,7.96887941 L2.50972519,7.96887941 L2.50972519,6.96498933 L1.00389007,6.96498933 L1.00389007,1.00389007 L7.95281717,1.00389007 L7.95281717,7.46693437 L7.95281717,7.5452378 Z M8.95670724,1.70460535 L14.2763207,6.96498933 L8.95670724,6.96498933 L8.95670724,1.70460535 Z M16,7.46693437 C16,7.33542477 15.9488016,7.20592295 15.8504204,7.1095495 L8.80712762,0.145564061 C8.71175806,0.0501945037 8.58426402,0 8.4547622,0 L0.501945037,0 C0.224871377,0 0,0.224871377 0,0.501945037 L0,15.498055 C0,15.7751286 0.224871377,16 0.501945037,16 L15.498055,16 C15.7751286,16 16,15.7751286 16,15.498055 L16,7.46693437 Z" id="Amazon-WorkDocs_Icon_16_Squid"></path>
+        </g>
+    </g>
+</svg>
+      <strong>WorkDocs (formerly Zocalo)</strong>
+    </a> was introduced <strong>7 years ago</strong>
   </p>
   <p data-name="WorkLink">
     <a target="_blank" rel='noopener noreferrer' href="https://aws.amazon.com/about-aws/whats-new/2019/01/introducing-amazon-worklink/">
