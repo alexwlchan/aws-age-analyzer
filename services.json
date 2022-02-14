@@ -1,0 +1,266 @@
+[
+  {
+    "name": "API Gateway",
+    "released": "2015-07-09",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2015/07/introducing-amazon-api-gateway/",
+    "icon": "api_gateway"
+  },
+  {
+    "name": "Alexa for Business",
+    "released": "2017-11-30",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2017/11/alexa-for-business-is-now-generally-available/",
+    "icon": "alexa_for_business"
+  },
+  {
+    "name": "App Runner",
+    "released": "2021-05-18",
+    "link": "https://aws.amazon.com/blogs/containers/introducing-aws-app-runner/",
+    "icon": "app_runner"
+  },
+  {
+    "name": "AppFlow",
+    "released": "2020-04-22",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/introducing-amazon-appflow/",
+    "icon": "appflow"
+  },
+  {
+    "name": "AppSync",
+    "released": "2018-04-13",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2018/04/aws-appsync-now-ga/",
+    "icon": "appsync"
+  },
+  {
+    "name": "Application Cost Profiler",
+    "released": "2021-05-26",
+    "link": "https://aws.amazon.com/blogs/aws-cloud-financial-management/introducing-aws-application-cost-profiler-offering-user-based-cost-data-of-shared-aws-resources/",
+    "icon": "application_cost_profiler"
+  },
+  {
+    "name": "Athena",
+    "released": "2016-11-30",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2016/11/introducing-amazon-athena-a-pay-as-you-go-interactive-query-service-that-makes-it-easy-to-analyze-data-in-amazon-s3-using-standard-sql/",
+    "icon": "athena"
+  },
+  {
+    "name": "Aurora",
+    "released": "2014-11-12",
+    "link": "https://aws.amazon.com/blogs/aws/highly-scalable-mysql-compat-rds-db-engine/",
+    "icon": "aurora"
+  },
+  {
+    "name": "Batch",
+    "released": "2017-01-05",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2017/01/aws-batch-now-generally-available/",
+    "icon": "batch"
+  },
+  {
+    "name": "Budgets",
+    "released": "2016-06-20",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2015/06/aws-introduces-budgets-a-simple-way-to-manage-your-aws-costs/",
+    "icon": "budgets"
+  },
+  {
+    "name": "CloudSearch",
+    "released": "2012-04-11",
+    "link": "https://www.allthingsdistributed.com/2012/04/amazon-cloudsearch.html",
+    "icon": "cloudsearch"
+  },
+  {
+    "name": "Connect",
+    "released": "2017-03-28",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2017/03/introducing-amazon-connect/",
+    "icon": "connect"
+  },
+  {
+    "name": "Cost Explorer",
+    "released": "2014-04-08",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2014/04/08/introducing-cost-explorer-view-and-analyze-your-historical-aws-spend/",
+    "icon": "cost_explorer"
+  },
+  {
+    "name": "Data Exchange",
+    "released": "2019-11-13",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2019/11/introducing-aws-data-exchange/",
+    "icon": "data_exchange"
+  },
+  {
+    "name": "Database Migration Service",
+    "released": "2016-03-15",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2016/03/aws-database-migration-service-is-now-generally-available/",
+    "icon": "database_migration_service"
+  },
+  {
+    "name": "DocumentDB",
+    "released": "2019-01-09",
+    "link": "https://aws.amazon.com/blogs/aws/new-amazon-documentdb-with-mongodb-compatibility-fast-scalable-and-highly-available/",
+    "icon": "documentdb"
+  },
+  {
+    "name": "DynamoDB",
+    "released": "2012-01-18",
+    "link": "https://www.allthingsdistributed.com/2012/01/amazon-dynamodb.html",
+    "icon": "dynamodb"
+  },
+  {
+    "name": "EC2",
+    "released": "2006-08-25",
+    "link": "https://aws.amazon.com/blogs/aws/amazon_ec2_beta/",
+    "icon": "ec2"
+  },
+  {
+    "name": "ECR (Elastic/EC2 Container Registry)",
+    "released": "2015-12-21",
+    "link": "https://aws.amazon.com/blogs/aws/ec2-container-registry-now-generally-available/",
+    "icon": "ecr"
+  },
+  {
+    "name": "ECS (Elastic/EC2 Container Service)",
+    "released": "2015-04-09",
+    "link": "https://aws.amazon.com/blogs/compute/amazon-ec2-container-service-is-now-generally-available/",
+    "icon": "ecs"
+  },
+  {
+    "name": "EMR (Elastic MapReduce)",
+    "released": "2009-04-02",
+    "link": "https://aws.amazon.com/blogs/aws/announcing-amazon-elastic-mapreduce/",
+    "icon": "emr"
+  },
+  {
+    "name": "ElasticCache",
+    "released": "2011-08-22",
+    "link": "https://aws.amazon.com/blogs/aws/amazon-elasticache-distributed-in-memory-caching/",
+    "icon": "elasticache"
+  },
+  {
+    "name": "EventBridge",
+    "released": "2019-07-11",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2019/07/introducing-amazon-eventbridge/",
+    "icon": "eventbridge"
+  },
+  {
+    "name": "FinSpace",
+    "released": "2021-05-03",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2021/05/introducing-amazon-finspace-a-fully-managed-service-to-store-prepare-and-analyze-data-for-the-financial-services-industry-fsi/",
+    "icon": "finspace"
+  },
+  {
+    "name": "Glue",
+    "released": "2017-08-14",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2017/08/introducing-aws-glue-a-simple-flexible-and-cost-effective-extract-transfer-and-load-etl-service/",
+    "icon": "glue"
+  },
+  {
+    "name": "Honeycode",
+    "released": "2020-06-24",
+    "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-honeycode-build-web-mobile-apps-without-writing-code/",
+    "icon": "honeycode"
+  },
+  {
+    "name": "Kinesis",
+    "released": "2013-12-16",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2013/12/16/amazon-kinesis-available-for-all-customers/",
+    "icon": "kinesis"
+  },
+  {
+    "name": "Lake Formation",
+    "released": "2019-08-09",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2019/08/aws-lake-formation-is-now-generally-available/",
+    "icon": "lake_formation"
+  },
+  {
+    "name": "Lightsail",
+    "released": "2016-11-30",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2016/11/introducing-amazon-lightsail/",
+    "icon": "lightsail"
+  },
+  {
+    "name": "MQ",
+    "released": "2017-11-28",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-amazon-mq/",
+    "icon": "mq"
+  },
+  {
+    "name": "Managed Blockchain",
+    "released": "2019-04-30",
+    "link": "https://press.aboutamazon.com/news-releases/news-release-details/aws-announces-general-availability-amazon-managed-blockchain",
+    "icon": "managed_blockchain"
+  },
+  {
+    "name": "Neptune",
+    "released": "2018-05-30",
+    "link": "https://aws.amazon.com/blogs/aws/amazon-neptune-generally-available/",
+    "icon": "neptune"
+  },
+  {
+    "name": "Pinpoint",
+    "released": "2016-12-01",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2016/12/introducing-amazon-pinpoint/",
+    "icon": "pinpoint"
+  },
+  {
+    "name": "Quantum Ledger Database (QLDB)",
+    "released": "2019-09-10",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2019/09/announcing-general-availability-qldb/",
+    "icon": "qldb"
+  },
+  {
+    "name": "QuickSight",
+    "released": "2016-11-15",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2016/11/amazon-quicksight-now-generally-available/",
+    "icon": "quicksight"
+  },
+  {
+    "name": "RDS (Relational Database Service)",
+    "released": "2009-10-26",
+    "link": "https://aws.amazon.com/blogs/aws/introducing-rds-the-amazon-relational-database-service/",
+    "icon": "rds"
+  },
+  {
+    "name": "Redshift",
+    "released": "2013-02-15",
+    "link": "https://www.businesswire.com/news/home/20130215005204/en/Amazon-Web-Services-Amazon-Redshift-Customers",
+    "icon": "redshift"
+  },
+  {
+    "name": "SES (Simple Email Service)",
+    "released": "2011-01-25",
+    "link": "https://aws.amazon.com/blogs/aws/introducing-the-amazon-simple-email-service/",
+    "icon": "ses"
+  },
+  {
+    "name": "SNS (Simple Notification Service)",
+    "released": "2010-04-07",
+    "link": "https://aws.amazon.com/blogs/aws/introducing-the-amazon-simple-notification-service/",
+    "icon": "sns"
+  },
+  {
+    "name": "SQS (Simple Queue Service)",
+    "released": "2006-07-13",
+    "link": "https://aws.amazon.com/blogs/aws/amazon_simple_q/",
+    "icon": "sqs"
+  },
+  {
+    "name": "Savings Plans",
+    "released": "2016-11-06",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2019/11/introducing-savings-plans/",
+    "icon": "savings_plans"
+  },
+  {
+    "name": "Step Functions",
+    "released": "2016-12-01",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2016/12/introducing-aws-step-functions/",
+    "icon": "step_functions"
+  },
+  {
+    "name": "Timestream",
+    "released": "2020-09-30",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/09/amazon-timestream-now-generally-available/",
+    "icon": "timestream"
+  },
+  {
+    "name": "Workmail",
+    "released": "2015-01-28",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2015/01/28/introducing-amazon-workmail/",
+    "icon": "workmail"
+  }
+]

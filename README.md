@@ -1,35 +1,42 @@
-# How Old Is It?
+# AWS Age Analyzer – How old is that AWS Service?
 
-A tool for recruiters to check how old a technology is.
+A tool to find out how old a particular AWS service is.
 
-Welcome to this non-exhaustive list of technologies and their approximate ages. I started this as a gentle dig at a subset of recruiters, and it has since been massively expanded upon by many contributors.
+Welcome to this non-exhaustive list of AWS services and their approximate ages.
+
+This is based on [an idea/tool created by jsrn](https://github.com/jsrn/howoldisit), focused on the myriad selection of AWS services and products.
+I spun it out as a separate list at the suggestion of Corey Quinn.
 
 ## Running the Project
 
-Run `ruby build.rb` to update the HTML template from your list of technologies and view the site in your browser of choice.
+Run `ruby build.rb` to update the HTML template from your list of services and view the site in your browser of choice.
 
-## Adding a Technology
+## Adding a Service
 
-New technologies should be added to `technologies.json` in alphabetical order.
+New services should be added to `services.json`.
 
-We're interested in:
-
-* Programming languages such as Ruby or C++.
-* Programming language frameworks such as Ruby on Rails or Laravel.
-* Programming adjacent tools such as Kubernetes or TravisCI.
-
-Check the list of [open issues](https://github.com/jsrn/howoldisit/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc) to see if anything strikes your fancy and submit a merge request.
-
-All contributions are welcome, no matter how obscure the technology!
+The link should point to a blog post or news article announcing the launch, and the icon in `icons.json` should be the 16&times;16px SVG from the [AWS Architecture Icons](https://aws.amazon.com/architecture/icons/).
 
 ### How old is "how old?"
 
-Sometimes it's difficult to determine the exact date a project was made publicly available. Sometimes there is a large gap between the public release and the "official" launch. If there is uncertainty over which date to pick when adding a technology, aim for the earlier of the two.
+AWS are pretty good about keeping old blog posts around, so you can usually find a blog post announcing the launch of a service.
+
+Some services launch in limited preview or closed beta, and only become generally available later.
+Since the point of this tool is to work out how long somebody might have been using a service, I picked the GA date.
+
+## What's in the name?
+
+I wanted to be clear that this is a distinct site from [jsrn's project](https://github.com/jsrn/howoldisit), and I tried to imagine what somebody in charge of AWS might call it.
 
 ## Credits
 
 * This project was originally bootstrapped with [Create React App](https://github.com/facebook/create-react-app), but is now generated HTML with a little JS to work the dropdown.
-* A big thanks to [all of the contributors](https://github.com/jsrn/howoldisit/graphs/contributors) for massively expanding this beyond the tiny handful of technologies I had listed to begin with.
-* Unreal Engine icon by iconscout on icons8.com
+* This project is forked from [a similar project by jsrn](https://github.com/jsrn/howoldisit).
 
 P.S. If you are a recruiter and you are reading this, obviously it is not *you* that we are poking fun at! Haha! Ha! Haa... please don't blacklist us from the industry.
+
+- Amazon Elasticsearch
+data pipeline
+reserved instance reporting
+Chime
+Workdocs

@@ -33,19 +33,25 @@
     </noscript>
     <div class="App">
       <header class="App-header">
-        <h1>How long has <input id="tech-dropdown" type="search" list="technologies" placeholder="react, vue, ember, etc." onChange={this.filterChanged} ref={this.filterInput} /> existed?
+        <h1>How long has Amazon/AWS <input id="tech-dropdown" type="search" list="technologies" placeholder="s3, lambda, sqs, etc." onChange={this.filterChanged} ref={this.filterInput} /> existed?
           <datalist id="technologies">DROPDOWN_OPTIONS</datalist></h1>
       </header>
 
       <main>
-        <p>Thinking of asking for five years of experience in a two year old technology? Think again!</p>
+        <p>Thinking of asking for five years of experience in a two year old service? Think again!</p>
 
         <div id="rows">
           TECH_GOES_HERE
         </div>
 
         <div id="footer">
-          <p>Missing a technology? Find this repo on <a href="https://github.com/jsrn/howoldisit">GitHub</a>. Want a piece of me? Hurl abuse on <a href="https://twitter.com/zerosumjames">Twitter</a>.
+          <p>
+            Made by <a href="https://alexwlchan.net">@alexwlchan</a>.
+            Inspired by <a href="https://jsrn.net/howoldisit/">a similar tool</a> made by <a href="https://jsrn.net">@jsrn</a>.
+          </p>
+          <p>
+            Missing a service?
+            Find this repo on <a href="https://github.com/alexwlchan/howoldisit">GitHub</a>.
           </p>
         </div>
       </main>

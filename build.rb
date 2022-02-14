@@ -21,20 +21,21 @@ def years_since(date_string)
 end
 
 def icon(key)
-  svg_data = @icons[key] || @icons['default']
-
-  <<-SVG
-  <svg class="icon" viewBox="#{svg_data['viewBox'] || '0 0 1024 1024'}" transform="#{svg_data['transform'] || 'scale(1, 1)'}">
-    #{svg_data['path'].map do |k, i| %(<path d="#{k}" key="#{i}"></path>) end.join}
-  </svg>
-  SVG
+  @icons[key]
 end
 
 template = File.read('index.template')
-technologies = JSON.parse(File.read('technologies.json'))
+services = JSON.parse(File.read('services.json'))
+
+# sort the list of services
+services = services.sort_by { |t| t["name"] }
+File.open('services.json', 'w') { |f|
+  f.write JSON.pretty_generate(services)
+}
+
 @icons = JSON.parse(File.read('icons.json'))
 
-technology_html = technologies.map do |tech|
+service_html = services.map do |tech|
   <<-HTML
   <p data-name="#{tech['name']}">
     <a target="_blank" rel='noopener noreferrer' href="#{tech['link']}">
@@ -45,13 +46,13 @@ technology_html = technologies.map do |tech|
   HTML
 end.join
 
-dropdown_html = technologies.map do |tech|
+dropdown_html = services.map do |tech|
   <<-HTML
   <option value="#{tech['name']}"></option>
   HTML
 end.join
 
-generated_html = template.sub("TECH_GOES_HERE", technology_html)
+generated_html = template.sub("TECH_GOES_HERE", service_html)
 generated_html = generated_html.sub("DROPDOWN_OPTIONS", dropdown_html)
 
 File.write("index.html", generated_html)
