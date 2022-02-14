@@ -50,5 +50,8 @@ cdk cloud development kit
 aws codebuild
 aws codepipeline
 gamelift
-
+neuron
+elemental
+launch wizard
+opsworks
 -->

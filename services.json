@@ -24,6 +24,12 @@
     "icon": "app_runner"
   },
   {
+    "name": "AppConfig",
+    "released": "2019-11-25",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2019/11/simplify-application-configuration-with-aws-appconfig/",
+    "icon": "appconfig"
+  },
+  {
     "name": "AppFlow",
     "released": "2020-04-22",
     "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/introducing-amazon-appflow/",
@@ -66,6 +72,12 @@
     "icon": "aurora"
   },
   {
+    "name": "Auto Scaling",
+    "released": "2018-01-16",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2018/01/introducing-aws-auto-scaling/",
+    "icon": "auto_scaling"
+  },
+  {
     "name": "Batch",
     "released": "2017-01-05",
     "link": "https://aws.amazon.com/about-aws/whats-new/2017/01/aws-batch-now-generally-available/",
@@ -90,10 +102,22 @@
     "icon": "budgets"
   },
   {
+    "name": "Chatbot",
+    "released": "2019-07-24",
+    "link": "https://aws.amazon.com/blogs/devops/introducing-aws-chatbot-chatops-for-aws/",
+    "icon": "chatbot"
+  },
+  {
     "name": "Cloud9",
     "released": "2017-11-30",
     "link": "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-aws-cloud9/",
     "icon": "cloud9"
+  },
+  {
+    "name": "CloudFormation",
+    "released": "2011-02-25",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2011/02/25/introducing-aws-cloudformation/",
+    "icon": "cloudformation"
   },
   {
     "name": "CloudSearch",
@@ -112,6 +136,18 @@
     "released": "2020-12-15",
     "link": "https://aws.amazon.com/about-aws/whats-new/2020/12/introducing-aws-cloudshell/",
     "icon": "cloudshell"
+  },
+  {
+    "name": "CloudTrail",
+    "released": "2013-11-13",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2013/11/13/announcing-aws-cloudtrail/",
+    "icon": "cloudtrail"
+  },
+  {
+    "name": "CloudWatch",
+    "released": "2009-05-18",
+    "link": "https://aws.amazon.com/blogs/aws/new-aws-load-balancing-automatic-scaling-and-cloud-monitoring-services/",
+    "icon": "cloudwatch"
   },
   {
     "name": "CodeArtifact",
@@ -156,10 +192,40 @@
     "icon": "comprehend"
   },
   {
+    "name": "Config",
+    "released": "2014-11-12",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2014/11/12/introducing-aws-config/",
+    "icon": "config"
+  },
+  {
+    "name": "Config",
+    "released": "2014-11-12",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2014/11/12/introducing-aws-config/",
+    "icon": "config"
+  },
+  {
+    "name": "Config",
+    "released": "2014-11-12",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2014/11/12/introducing-aws-config/",
+    "icon": "config"
+  },
+  {
+    "name": "Config",
+    "released": "2014-11-12",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2014/11/12/introducing-aws-config/",
+    "icon": "config"
+  },
+  {
     "name": "Connect",
     "released": "2017-03-28",
     "link": "https://aws.amazon.com/about-aws/whats-new/2017/03/introducing-amazon-connect/",
     "icon": "connect"
+  },
+  {
+    "name": "Control Tower",
+    "released": "2019-06-24",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2019/06/aws-control-tower-is-now-generally-available/",
+    "icon": "control_tower"
   },
   {
     "name": "Corretto",
@@ -214,6 +280,12 @@
     "released": "2015-07-09",
     "link": "https://aws.amazon.com/about-aws/whats-new/2015/07/deliver-high-quality-apps-by-testing-them-against-real-phones-and-tablets-in-the-aws-cloud-with-device-farm/",
     "icon": "device_farm"
+  },
+  {
+    "name": "Distro for OpenTelemetry",
+    "released": "2020-10-21",
+    "link": "https://aws.amazon.com/blogs/aws/public-preview-aws-distro-open-telemetry/",
+    "icon": "distro_open_telemetry"
   },
   {
     "name": "DocumentDB",
@@ -300,6 +372,12 @@
     "icon": "fargate"
   },
   {
+    "name": "Fault Injection Simulator (FIS)",
+    "released": "2021-03-15",
+    "link": "https://aws.amazon.com/blogs/aws/aws-fault-injection-simulator-use-controlled-experiments-to-boost-resilience/",
+    "icon": "fis"
+  },
+  {
     "name": "FinSpace",
     "released": "2021-05-03",
     "link": "https://aws.amazon.com/about-aws/whats-new/2021/05/introducing-amazon-finspace-a-fully-managed-service-to-store-prepare-and-analyze-data-for-the-financial-services-industry-fsi/",
@@ -378,6 +456,12 @@
     "icon": "lex"
   },
   {
+    "name": "License Manager",
+    "released": "2018-11-28",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2018/11/announcing-aws-license-manager/",
+    "icon": "license_manager"
+  },
+  {
     "name": "Lightsail",
     "released": "2016-11-30",
     "link": "https://aws.amazon.com/about-aws/whats-new/2016/11/introducing-amazon-lightsail/",
@@ -418,6 +502,18 @@
     "released": "2019-04-30",
     "link": "https://press.aboutamazon.com/news-releases/news-release-details/aws-announces-general-availability-amazon-managed-blockchain",
     "icon": "managed_blockchain"
+  },
+  {
+    "name": "Managed Grafana",
+    "released": "2021-08-31",
+    "link": "https://aws.amazon.com/blogs/aws/amazon-managed-grafana-is-now-generally-available-with-many-new-features/",
+    "icon": "managed_grafana"
+  },
+  {
+    "name": "Managed Prometheus",
+    "released": "2021-10-21",
+    "link": "https://www.infoq.com/news/2021/10/aws-amazon-prometheus-ga/",
+    "icon": "managed_prometheseus"
   },
   {
     "name": "Monitron",
