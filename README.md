@@ -22,7 +22,7 @@ The link should point to a blog post or news article announcing the launch, and 
 AWS are pretty good about keeping old blog posts around, so you can usually find a blog post announcing the launch of a service.
 
 Some services launch in limited preview or closed beta, and only become generally available later.
-Since the point of this tool is to work out how long somebody might have been using a service, I picked the GA date.
+Since the point of this tool is to work out how long somebody might have been using a service, I tried to pick the date it would first be available for anybody to log into the console and use.
 
 ## What's in the name?
 

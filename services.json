@@ -54,6 +54,12 @@
     "icon": "batch"
   },
   {
+    "name": "Bottlerocket",
+    "released": "2020-03-30",
+    "link": "https://aws.amazon.com/blogs/containers/bottlerocket-a-special-purpose-container-operating-system/",
+    "icon": "bottlerocket"
+  },
+  {
     "name": "Budgets",
     "released": "2016-06-20",
     "link": "https://aws.amazon.com/about-aws/whats-new/2015/06/aws-introduces-budgets-a-simple-way-to-manage-your-aws-costs/",
@@ -126,6 +132,18 @@
     "icon": "emr"
   },
   {
+    "name": "Elastic Beanstalk",
+    "released": "2011-01-19",
+    "link": "https://aws.amazon.com/blogs/aws/introducing-elastic-beanstalk/",
+    "icon": "elastic_beanstalk"
+  },
+  {
+    "name": "Elastic Fabric Adapter (EFA)",
+    "released": "2018-11-26",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-elastic-fabric-adapter/",
+    "icon": "efa"
+  },
+  {
     "name": "ElasticCache",
     "released": "2011-08-22",
     "link": "https://aws.amazon.com/blogs/aws/amazon-elasticache-distributed-in-memory-caching/",
@@ -136,6 +154,12 @@
     "released": "2019-07-11",
     "link": "https://aws.amazon.com/about-aws/whats-new/2019/07/introducing-amazon-eventbridge/",
     "icon": "eventbridge"
+  },
+  {
+    "name": "Fargate",
+    "released": "2017-11-29",
+    "link": "https://aws.amazon.com/blogs/aws/aws-fargate/",
+    "icon": "fargate"
   },
   {
     "name": "FinSpace",
@@ -166,6 +190,12 @@
     "released": "2019-08-09",
     "link": "https://aws.amazon.com/about-aws/whats-new/2019/08/aws-lake-formation-is-now-generally-available/",
     "icon": "lake_formation"
+  },
+  {
+    "name": "Lambda",
+    "released": "2014-11-13",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2014/11/13/introducing-aws-lambda/",
+    "icon": "lambda"
   },
   {
     "name": "Lightsail",
@@ -246,6 +276,12 @@
     "icon": "savings_plans"
   },
   {
+    "name": "Serverless Application Repository",
+    "released": "2018-02-21",
+    "link": "https://aws.amazon.com/blogs/aws/now-available-aws-serverless-application-repository/",
+    "icon": "serverless_application_repository"
+  },
+  {
     "name": "Step Functions",
     "released": "2016-12-01",
     "link": "https://aws.amazon.com/about-aws/whats-new/2016/12/introducing-aws-step-functions/",
@@ -256,6 +292,12 @@
     "released": "2020-09-30",
     "link": "https://aws.amazon.com/about-aws/whats-new/2020/09/amazon-timestream-now-generally-available/",
     "icon": "timestream"
+  },
+  {
+    "name": "Wavelength",
+    "released": "2020-08-22",
+    "link": "https://www.infoq.com/news/2020/08/aws-wavelength/",
+    "icon": "wavelength"
   },
   {
     "name": "Workmail",
