@@ -54,6 +54,12 @@
     "icon": "athena"
   },
   {
+    "name": "Augmented AI (A2I)",
+    "released": "2020-04-24",
+    "link": "https://aws.amazon.com/blogs/machine-learning/amazon-a2i-is-now-generally-available/",
+    "icon": "a2i"
+  },
+  {
     "name": "Aurora",
     "released": "2014-11-12",
     "link": "https://aws.amazon.com/blogs/aws/highly-scalable-mysql-compat-rds-db-engine/",
@@ -70,6 +76,12 @@
     "released": "2020-03-30",
     "link": "https://aws.amazon.com/blogs/containers/bottlerocket-a-special-purpose-container-operating-system/",
     "icon": "bottlerocket"
+  },
+  {
+    "name": "Braket",
+    "released": "2020-08-13",
+    "link": "https://press.aboutamazon.com/news-releases/news-release-details/aws-announces-general-availability-amazon-braket",
+    "icon": "braket"
   },
   {
     "name": "Budgets",
@@ -120,6 +132,12 @@
     "icon": "codedeploy"
   },
   {
+    "name": "CodeGuru",
+    "released": "2020-06-29",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/06/amazon-codeguru-now-generally-available/",
+    "icon": "codeguru"
+  },
+  {
     "name": "CodeStar",
     "released": "2017-04-19",
     "link": "https://aws.amazon.com/blogs/aws/new-aws-codestar/",
@@ -130,6 +148,12 @@
     "released": "2012-12-21",
     "link": "https://aws.amazon.com/about-aws/whats-new/2012/12/21/introducing-the-aws-command-line-interface/",
     "icon": "cli"
+  },
+  {
+    "name": "Comprehend",
+    "released": "2017-11-29",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-amazon-comprehend-discover-insights-from-text/",
+    "icon": "comprehend"
   },
   {
     "name": "Connect",
@@ -160,6 +184,12 @@
     "released": "2016-03-15",
     "link": "https://aws.amazon.com/about-aws/whats-new/2016/03/aws-database-migration-service-is-now-generally-available/",
     "icon": "database_migration_service"
+  },
+  {
+    "name": "DevOps Guru",
+    "released": "2021-05-04",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2021/05/amazon-devops-guru-now-generally-available-with-additional-capabilities/",
+    "icon": "devops_guru"
   },
   {
     "name": "Device Farm",
@@ -222,6 +252,12 @@
     "icon": "efa"
   },
   {
+    "name": "Elastic Inference",
+    "released": "2018-11-28",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-amazon-elastic-inference/",
+    "icon": "elastic_inference"
+  },
+  {
     "name": "ElasticCache",
     "released": "2011-08-22",
     "link": "https://aws.amazon.com/blogs/aws/amazon-elasticache-distributed-in-memory-caching/",
@@ -246,10 +282,28 @@
     "icon": "finspace"
   },
   {
+    "name": "Forecast",
+    "released": "2019-08-22",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2019/08/amazon-forecast-now-generally-available/",
+    "icon": "forecast"
+  },
+  {
+    "name": "Fraud Detector",
+    "released": "2020-07-28",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/07/detect-fraud-faster-using-machine-learning-with-amazon-fraud-detector/",
+    "icon": "fraud_detector"
+  },
+  {
     "name": "Glue",
     "released": "2017-08-14",
     "link": "https://aws.amazon.com/about-aws/whats-new/2017/08/introducing-aws-glue-a-simple-flexible-and-cost-effective-extract-transfer-and-load-etl-service/",
     "icon": "glue"
+  },
+  {
+    "name": "HealthLake",
+    "released": "2021-07-15",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2021/07/amazon-healthlake-generally-available/",
+    "icon": "healthlake"
   },
   {
     "name": "Honeycode",
@@ -262,6 +316,12 @@
     "released": "2015-12-18",
     "link": "https://aws.amazon.com/blogs/aws/aws-iot-now-generally-available/",
     "icon": "iot_core"
+  },
+  {
+    "name": "Kendra",
+    "released": "2020-05-11",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/05/amazon-kendra-is-now-generally-available/",
+    "icon": "kendra"
   },
   {
     "name": "Kinesis",
