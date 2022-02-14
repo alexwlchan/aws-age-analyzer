@@ -348,6 +348,12 @@
     "icon": "redshift"
   },
   {
+    "name": "RoboMaker",
+    "released": "2018-11-26",
+    "link": "https://press.aboutamazon.com/news-releases/news-release-details/amazon-web-services-announces-aws-robomaker",
+    "icon": "robomaker"
+  },
+  {
     "name": "S3 (Simple Storage Service)",
     "released": "2006-03-14",
     "link": "https://press.aboutamazon.com/news-releases/news-release-details/amazon-web-services-launches-amazon-s3-simple-storage-service",
