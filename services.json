@@ -114,12 +114,6 @@
     "icon": "backup"
   },
   {
-    "name": "Backup",
-    "released": "2019-01-16",
-    "link": "https://aws.amazon.com/about-aws/whats-new/2019/01/introducing-aws-backup/",
-    "icon": "backup"
-  },
-  {
     "name": "Batch",
     "released": "2017-01-05",
     "link": "https://aws.amazon.com/about-aws/whats-new/2017/01/aws-batch-now-generally-available/",
