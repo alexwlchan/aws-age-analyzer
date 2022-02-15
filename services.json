@@ -929,6 +929,12 @@
     "icon": "shield"
   },
   {
+    "name": "SimpleDB",
+    "released": "2015-07-09",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2007/12/13/announcing-amazon-simpledb-limited-beta/",
+    "icon": "database"
+  },
+  {
     "name": "Single Sign-On (SSO)",
     "released": "2017-12-07",
     "link": "https://aws.amazon.com/blogs/security/introducing-aws-single-sign-on/",
